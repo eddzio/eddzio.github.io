@@ -22,6 +22,7 @@
     box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
     top: 0px;
     left: 0%;
+    bottom: auto;
 }
 
 #text {
@@ -148,7 +149,7 @@
 #port1 {
     float: left;
     height: 230px;
-    margin-left: 4.999006%;
+    margin-left: 4.998785%;
     margin-top: 30px;
     clear: both;
     width: 27%;
@@ -224,13 +225,14 @@
 }
 
 #Contact {
-    float: left;
+    float: none;
     height: 337px;
-    margin-left: 1.907145%;
-    margin-top: 50px;
-    clear: both;
-    width: 94.999136%;
+    margin-left: auto;
+    margin-top: 433px;
+    clear: none;
+    width: 90%;
     background-color: rgb(150, 150, 150);
+    margin-right: auto;
 }
 
 #text7 {
@@ -246,39 +248,6 @@
     clear: none;
     min-height: 0px;
     margin-right: auto;
-}
-
-#formgroup {
-    float: left;
-    height: auto;
-    display: block;
-    text-align: left;
-    margin-left: 31.99894%;
-    margin-top: 60.375px;
-    clear: both;
-    width: auto;
-    min-height: auto;
-}
-
-#textinput {
-    float: none;
-    height: 110px;
-    padding: 0px;
-    font-size: 1em;
-    display: block;
-    width: 100%;
-}
-
-#text8 {
-    float: none;
-    font-size: 1em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    padding: 0.2em 0em;
-    display: block;
 }
 
 @media only screen and (max-width: 904px) {
