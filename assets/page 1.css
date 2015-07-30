@@ -14,7 +14,7 @@
     height: 4em;
     clear: none;
     width: 100%;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(52, 152, 219);
     position: fixed;
     z-index: 1;
     overflow: hidden;
@@ -119,22 +119,22 @@
 
 #text1:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(152, 203, 237);
 }
 
 #text2:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(152, 203, 237);
 }
 
 #text3:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(152, 203, 237);
 }
 
 #text4:hover {
     color: rgb(0, 0, 0);
-    background-color: rgb(208, 208, 208);
+    background-color: rgb(152, 203, 237);
 }
 
 #aboutme {
@@ -143,7 +143,7 @@
     margin: 114px auto 0px;
     clear: none;
     width: 90%;
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(177, 171, 171);
 }
 
 #port1 {
@@ -186,16 +186,19 @@
 #port1:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
 }
 
 #port2:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
 }
 
 #port3:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
 }
 
 #port3 {
@@ -238,7 +241,7 @@
 #text7 {
     float: none;
     font-size: 4em;
-    width: auto;
+    width: 35.345031%;
     height: auto;
     text-align: center;
     font-weight: bold;
@@ -247,7 +250,14 @@
     margin-top: 131px;
     clear: none;
     min-height: 0px;
+    border-width: 0px;
+    border-style: solid;
     margin-right: auto;
+}
+
+#text7:hover {
+    border-bottom-width: 5px;
+    overflow: hidden;
 }
 
 @media only screen and (max-width: 904px) {
