@@ -18,8 +18,10 @@
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    -webkit-box-shadow: rgb(135, 132, 132) 0px 3px 3px 0px;
-    box-shadow: rgb(135, 132, 132) 0px 3px 3px 0px;
+    -webkit-box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
+    box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
+    top: 0px;
+    left: 0%;
 }
 
 #text {
@@ -135,13 +137,105 @@
 }
 
 #box {
-    float: left;
+    float: none;
     height: 459px;
-    margin-left: 6.132357%;
-    margin-top: 114px;
+    margin: 114px auto 0px;
     clear: none;
-    width: 87.733629%;
+    width: 90%;
     background-color: rgb(70, 70, 70);
+}
+
+#box1 {
+    float: left;
+    height: 230px;
+    margin-left: 4.999006%;
+    margin-top: 30px;
+    clear: both;
+    width: 27%;
+    background-color: rgb(135, 132, 132);
+}
+
+#box2 {
+    float: left;
+    height: 230px;
+    margin-left: 4.5%;
+    margin-top: 30px;
+    clear: none;
+    width: 27%;
+    margin-right: 4.5%;
+    background-color: rgb(135, 132, 132);
+    padding-right: 0%;
+    padding-left: 0%;
+}
+
+#text5 {
+    float: left;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 5%;
+    margin-top: 83px;
+    clear: none;
+    min-height: 0px;
+}
+
+#box1:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+}
+
+#box2:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+}
+
+#box3:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+}
+
+#box3 {
+    float: left;
+    height: 230px;
+    margin-left: 0%;
+    margin-top: 30px;
+    clear: none;
+    width: 27%;
+    margin-right: 0%;
+    background-color: rgb(135, 132, 132);
+}
+
+#text6 {
+    float: left;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 5.000663%;
+    margin-top: 70px;
+    clear: both;
+    min-height: 0px;
+    margin-right: 0%;
+}
+
+#text7 {
+    float: none;
+    font-size: 4em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1em;
+    clear: none;
+    min-height: 0px;
+    margin-top: 603px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 @media only screen and (max-width: 904px) {
