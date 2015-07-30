@@ -136,7 +136,7 @@
     background-color: rgb(208, 208, 208);
 }
 
-#box {
+#aboutme {
     float: none;
     height: 459px;
     margin: 114px auto 0px;
@@ -145,7 +145,7 @@
     background-color: rgb(70, 70, 70);
 }
 
-#box1 {
+#port1 {
     float: left;
     height: 230px;
     margin-left: 4.999006%;
@@ -155,7 +155,7 @@
     background-color: rgb(135, 132, 132);
 }
 
-#box2 {
+#port2 {
     float: left;
     height: 230px;
     margin-left: 4.5%;
@@ -182,22 +182,22 @@
     min-height: 0px;
 }
 
-#box1:hover {
+#port1:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
 }
 
-#box2:hover {
+#port2:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
 }
 
-#box3:hover {
+#port3:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
 }
 
-#box3 {
+#port3 {
     float: left;
     height: 230px;
     margin-left: 0%;
@@ -216,11 +216,21 @@
     text-align: left;
     font-weight: bold;
     line-height: 1em;
-    margin-left: 5.000663%;
-    margin-top: 70px;
-    clear: both;
+    margin-left: 0.08372142%;
+    margin-top: 0px;
+    clear: none;
     min-height: 0px;
     margin-right: 0%;
+}
+
+#Contact {
+    float: left;
+    height: 337px;
+    margin-left: 1.907145%;
+    margin-top: 50px;
+    clear: both;
+    width: 94.999136%;
+    background-color: rgb(150, 150, 150);
 }
 
 #text7 {
@@ -231,10 +241,10 @@
     text-align: center;
     font-weight: bold;
     line-height: 1em;
+    margin-left: auto;
+    margin-top: 142px;
     clear: none;
     min-height: 0px;
-    margin-top: 603px;
-    margin-left: auto;
     margin-right: auto;
 }
 
@@ -253,6 +263,77 @@
 
     #text4 {
         display: none;
+    }
+
+    #text6 {
+        margin-top: 0px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        display: block;
+    }
+
+    #port1 {
+        margin-top: 30px;
+        margin-left: 4.994381%;
+        clear: both;
+    }
+
+    #navbar {
+        top: 0px;
+        left: 0%;
+    }
+
+    #port2 {
+        margin-top: 30px;
+        margin-left: 4.501642%;
+        clear: none;
+    }
+
+    #port3 {
+        margin-top: 30px;
+        margin-left: 0.00216113%;
+        clear: none;
+    }
+
+    #Contact {
+        float: none;
+        height: 337px;
+        margin-left: auto;
+        margin-top: 466px;
+        clear: none;
+        width: 89.998271%;
+        background-color: rgb(150, 150, 150);
+        margin-right: auto;
+        max-width: none;
+    }
+
+    .primaryContainer {
+        margin-left: 0%;
+        margin-right: 0px;
+        float: none;
+        clear: none;
+    }
+
+    #aboutme {
+        margin-top: 264px;
+        clear: none;
+    }
+
+    #text7 {
+        float: none;
+        font-size: 4em;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-weight: bold;
+        line-height: 1em;
+        margin-left: auto;
+        margin-top: 84px;
+        clear: none;
+        min-height: 0px;
+        margin-right: auto;
     }
 }
 
