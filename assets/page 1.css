@@ -5,7 +5,7 @@
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    background-color: rgb(195, 195, 195);
+    background-color: rgb(255, 255, 255);
     float: none;
 }
 
@@ -14,12 +14,12 @@
     height: 4em;
     clear: none;
     width: 100%;
-    background-color: rgb(52, 152, 219);
+    background-color: rgb(41, 128, 185);
     position: fixed;
     z-index: 1;
     overflow: hidden;
-    -webkit-box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
-    box-shadow: rgb(0, 0, 0) 0px 3px 3px 0px;
+    -webkit-box-shadow: rgb(109, 91, 91) 0px 2px 3px 0px;
+    box-shadow: rgb(109, 91, 91) 0px 2px 3px 0px;
     top: 0px;
     left: 0%;
     bottom: auto;
@@ -140,10 +140,16 @@
 #aboutme {
     float: none;
     height: 459px;
-    margin: 114px auto 0px;
+    margin: 0px auto;
     clear: none;
-    width: 90%;
+    width: 100%;
     background-color: rgb(177, 171, 171);
+    background-image:url("img/city%20blur.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
 }
 
 #port1 {
@@ -154,6 +160,13 @@
     clear: both;
     width: 27%;
     background-color: rgb(135, 132, 132);
+    background-image:url("img/Doodle%20UI.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
 }
 
 #port2 {
@@ -167,9 +180,16 @@
     background-color: rgb(135, 132, 132);
     padding-right: 0%;
     padding-left: 0%;
+    background-image:url("img/Export%20Regular.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
 }
 
-#text5 {
+#text6 {
     float: left;
     font-size: 2.5em;
     width: auto;
@@ -210,9 +230,16 @@
     width: 27%;
     margin-right: 0%;
     background-color: rgb(135, 132, 132);
+    background-image:url("img/User%20Flow.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
 }
 
-#text6 {
+#text7 {
     float: left;
     font-size: 2.5em;
     width: auto;
@@ -234,11 +261,11 @@
     margin-top: 433px;
     clear: none;
     width: 90%;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(255, 255, 255);
     margin-right: auto;
 }
 
-#text7 {
+#text8 {
     float: none;
     font-size: 4em;
     width: 35.345031%;
@@ -255,9 +282,32 @@
     margin-right: auto;
 }
 
-#text7:hover {
+#text8:hover {
     border-bottom-width: 5px;
     overflow: hidden;
+}
+
+#text5 {
+    float: left;
+    font-size: 1.1em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 1.250092%;
+    margin-top: 342px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(255, 255, 255);
+    font-family: helvetica;
+    text-shadow: rgb(0, 0, 0) 0px 3px 6px;
+}
+
+#textspan {
+    float: none;
+    font-size: 2em;
+    line-height: 1em;
 }
 
 @media only screen and (max-width: 904px) {
@@ -277,7 +327,7 @@
         display: none;
     }
 
-    #text6 {
+    #text7 {
         margin-top: 0px;
         margin-left: auto;
         clear: none;
@@ -313,10 +363,9 @@
         float: none;
         height: 337px;
         margin-left: auto;
-        margin-top: 466px;
+        margin-top: 457px;
         clear: none;
         width: 89.998271%;
-        background-color: rgb(150, 150, 150);
         margin-right: auto;
         max-width: none;
     }
@@ -329,11 +378,11 @@
     }
 
     #aboutme {
-        margin-top: 264px;
+        margin-top: 83px;
         clear: none;
     }
 
-    #text7 {
+    #text8 {
         float: none;
         font-size: 4em;
         width: auto;
@@ -346,6 +395,16 @@
         clear: none;
         min-height: 0px;
         margin-right: auto;
+    }
+
+    #text5 {
+        font-size: 1em;
+    }
+
+    #text6 {
+        margin-top: 44px;
+        margin-left: 4.99952%;
+        clear: none;
     }
 }
 
@@ -373,6 +432,48 @@
     #navbar {
         top: 0px;
         left: 0%;
+        bottom: auto;
+    }
+
+    #Contact {
+        margin-top: 1336px;
+        clear: none;
+    }
+
+    #port3 {
+        margin-top: 20px;
+        margin-left: 12.846154%;
+        clear: both;
+        margin-right: 0%;
+        width: 72.485577%;
+        height: 389.375px;
+    }
+
+    #port2 {
+        margin-top: 20px;
+        margin-right: 0%;
+        margin-left: 12.846154%;
+        clear: both;
+        width: 72.485577%;
+        height: 363.21875px;
+    }
+
+    #port1 {
+        margin-top: 10px;
+        margin-left: 13.144231%;
+        clear: both;
+        width: 72.043269%;
+        height: 387px;
+    }
+
+    #text5 {
+        font-size: 1em;
+    }
+
+    #text6 {
+        margin-top: 83px;
+        margin-left: 31.307692%;
+        clear: none;
     }
 }
 
