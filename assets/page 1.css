@@ -9,153 +9,19 @@
     float: none;
 }
 
-#navbar {
-    float: left;
-    height: 4em;
-    clear: none;
-    width: 100%;
-    background-color: rgb(41, 128, 185);
-    position: fixed;
-    z-index: 1;
-    overflow: hidden;
-    -webkit-box-shadow: rgb(109, 91, 91) 0px 2px 3px 0px;
-    box-shadow: rgb(109, 91, 91) 0px 2px 3px 0px;
-    top: 0px;
-    left: 0%;
-    bottom: auto;
-}
-
-#text {
-    float: left;
-    font-size: 41px;
-    width: 119px;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 1.907191%;
-    margin-top: 10px;
-    clear: none;
-    min-height: 0px;
-    min-width: 0px;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-}
-
-#text4 {
-    float: left;
-    font-size: 28px;
-    width: 14.999393%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0px 0%;
-    clear: none;
-    min-height: 64px;
-    min-width: 15%;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-    padding-top: 17px;
-}
-
-#text3 {
-    float: left;
-    font-size: 28px;
-    width: 14.999393%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0px 0%;
-    clear: none;
-    min-height: 64px;
-    min-width: 15%;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-    padding-top: 17px;
-}
-
-#text2 {
-    float: left;
-    font-size: 28px;
-    width: 14.999393%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 0.15640185%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 64px;
-    min-width: 15%;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-    margin-right: 0%;
-    padding-top: 17px;
-}
-
-#text1 {
-    float: left;
-    font-size: 28px;
-    width: 14.999393%;
-    height: auto;
-    text-align: center;
-    font-weight: normal;
-    line-height: 1em;
-    margin-left: 25%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 64px;
-    min-width: 15%;
-    font-family: helvetica;
-    color: rgb(255, 255, 255);
-    margin-right: 0%;
-    padding-top: 17px;
-    padding-left: 5px;
-    overflow: hidden;
-    font-style: normal;
-}
-
-#text1:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(152, 203, 237);
-}
-
-#text2:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(152, 203, 237);
-}
-
-#text3:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(152, 203, 237);
-}
-
-#text4:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(152, 203, 237);
-}
-
-#aboutme {
+#Header {
     float: none;
-    height: 459px;
+    height: 368px;
     margin: 0px auto;
     clear: none;
     width: 100%;
-    background-color: rgb(177, 171, 171);
-    background-image:url("img/city%20blur.png");
-    background-attachment: scroll;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: 0% 0%;
-    background-repeat: repeat repeat;
+    background-color: rgb(74, 144, 226);
 }
 
 #port1 {
     float: left;
     height: 230px;
-    margin-left: 4.998785%;
+    margin-left: 4.995748%;
     margin-top: 30px;
     clear: both;
     width: 27%;
@@ -172,7 +38,7 @@
 #port2 {
     float: left;
     height: 230px;
-    margin-left: 4.5%;
+    margin-left: 4.502247%;
     margin-top: 30px;
     clear: none;
     width: 27%;
@@ -189,7 +55,7 @@
     background-repeat: repeat repeat;
 }
 
-#text6 {
+#text3 {
     float: left;
     font-size: 2.5em;
     width: auto;
@@ -197,8 +63,8 @@
     text-align: left;
     font-weight: bold;
     line-height: 1em;
-    margin-left: 5%;
-    margin-top: 83px;
+    margin-left: 4.995748%;
+    margin-top: 24px;
     clear: none;
     min-height: 0px;
 }
@@ -224,7 +90,7 @@
 #port3 {
     float: left;
     height: 230px;
-    margin-left: 0%;
+    margin-left: 0.00151846%;
     margin-top: 30px;
     clear: none;
     width: 27%;
@@ -239,112 +105,74 @@
     background-repeat: repeat repeat;
 }
 
-#text7 {
+#navbar {
     float: left;
-    font-size: 2.5em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: bold;
-    line-height: 1em;
-    margin-left: 0.08372142%;
-    margin-top: 0px;
+    height: 4em;
     clear: none;
-    min-height: 0px;
-    margin-right: 0%;
-}
-
-#Contact {
-    float: none;
-    height: 337px;
-    margin-left: auto;
-    margin-top: 433px;
-    clear: none;
-    width: 90%;
-    background-color: rgb(255, 255, 255);
-    margin-right: auto;
-}
-
-#text8 {
-    float: none;
-    font-size: 4em;
-    width: 35.345031%;
-    height: auto;
-    text-align: center;
-    font-weight: bold;
-    line-height: 1em;
-    margin-left: auto;
-    margin-top: 131px;
-    clear: none;
-    min-height: 0px;
-    border-width: 0px;
-    border-style: solid;
-    margin-right: auto;
-}
-
-#text8:hover {
-    border-bottom-width: 5px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
     overflow: hidden;
+    top: 0px;
+    left: 0%;
+    bottom: auto;
+    background-color: rgb(74, 144, 226);
 }
 
-#text5 {
+#text {
     float: left;
-    font-size: 1.1em;
-    width: auto;
+    font-size: 41px;
+    width: 162px;
     height: auto;
     text-align: left;
     font-weight: normal;
     line-height: 1em;
-    margin-left: 1.250092%;
-    margin-top: 342px;
+    margin-left: 1.907191%;
+    margin-top: 10px;
     clear: none;
     min-height: 0px;
-    color: rgb(255, 255, 255);
+    min-width: 0px;
     font-family: helvetica;
-    text-shadow: rgb(0, 0, 0) 0px 3px 6px;
+    color: rgb(255, 255, 255);
 }
 
-#textspan {
+#text1 {
     float: none;
-    font-size: 2em;
+    font-size: 3em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
     line-height: 1em;
+    margin-left: auto;
+    margin-top: 143px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+
+#text2 {
+    float: none;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 904px) {
-    #text1 {
-        display: none;
-    }
-
-    #text2 {
-        display: none;
-    }
-
-    #text3 {
-        display: none;
-    }
-
-    #text4 {
-        display: none;
-    }
-
-    #text7 {
-        margin-top: 0px;
-        margin-left: auto;
-        clear: none;
-        margin-right: auto;
-        float: none;
-        display: block;
-    }
-
     #port1 {
         margin-top: 30px;
         margin-left: 4.994381%;
         clear: both;
-    }
-
-    #navbar {
-        top: 0px;
-        left: 0%;
     }
 
     #port2 {
@@ -359,17 +187,6 @@
         clear: none;
     }
 
-    #Contact {
-        float: none;
-        height: 337px;
-        margin-left: auto;
-        margin-top: 457px;
-        clear: none;
-        width: 89.998271%;
-        margin-right: auto;
-        max-width: none;
-    }
-
     .primaryContainer {
         margin-left: 0%;
         margin-right: 0px;
@@ -377,69 +194,24 @@
         clear: none;
     }
 
-    #aboutme {
-        margin-top: 83px;
+    #Header {
         clear: none;
-    }
-
-    #text8 {
-        float: none;
-        font-size: 4em;
-        width: auto;
-        height: auto;
-        text-align: center;
-        font-weight: bold;
-        line-height: 1em;
-        margin-left: auto;
-        margin-top: 84px;
-        clear: none;
-        min-height: 0px;
-        margin-right: auto;
-    }
-
-    #text5 {
-        font-size: 1em;
-    }
-
-    #text6 {
-        margin-top: 44px;
-        margin-left: 4.99952%;
-        clear: none;
-    }
-}
-
-@media only screen and (max-width: 650px) {
-    #text4 {
-        font-size: 32px;
-        display: none;
-    }
-
-    #text2 {
-        font-size: 32px;
-        display: none;
+        display: block;
     }
 
     #text3 {
-        font-size: 32px;
-        display: none;
-    }
-
-    #text1 {
-        font-size: 32px;
-        display: none;
+        margin-top: 44px;
+        margin-left: 4.99952%;
+        clear: none;
     }
 
     #navbar {
         top: 0px;
         left: 0%;
-        bottom: auto;
     }
+}
 
-    #Contact {
-        margin-top: 1336px;
-        clear: none;
-    }
-
+@media only screen and (max-width: 700px) {
     #port3 {
         margin-top: 20px;
         margin-left: 12.846154%;
@@ -466,14 +238,17 @@
         height: 387px;
     }
 
-    #text5 {
-        font-size: 1em;
-    }
-
-    #text6 {
+    #text3 {
         margin-top: 83px;
         margin-left: 31.307692%;
         clear: none;
+    }
+
+    #navbar {
+        top: 0px;
+        left: 0%;
+        bottom: auto;
+        height: 4em;
     }
 }
 
