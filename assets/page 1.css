@@ -171,23 +171,6 @@
     color: rgb(255, 255, 255);
 }
 
-#box2 {
-    float: left;
-    height: 271px;
-    margin-left: 0.04721913%;
-    margin-top: 0px;
-    clear: both;
-    width: 99.953455%;
-    min-height: 50px;
-    border-top-left-radius: 1px;
-    border-top-right-radius: 1px;
-    border-bottom-right-radius: 1px;
-    border-bottom-left-radius: 1px;
-    border-width: 5px;
-    border-style: dashed;
-    margin-right: 0%;
-}
-
 #text5 {
     float: left;
     font-size: 2.5em;
@@ -204,7 +187,7 @@
     min-width: 0px;
 }
 
-#box3 {
+#box7 {
     float: left;
     height: 3em;
     margin-left: 0%;
@@ -220,7 +203,7 @@
     background-repeat: no-repeat no-repeat;
 }
 
-#box3:hover {
+#box7:hover {
     opacity: 1;
 }
 
@@ -238,26 +221,15 @@
 #text6 {
     float: left;
     font-size: 2em;
-    width: 7em;
+    width: 5em;
     height: auto;
     text-align: left;
     font-weight: 100;
     line-height: 1em;
-    margin: 0.25em 0% 0.03em;
-    clear: none;
+    margin: -41px 0px 0px 48px;
+    clear: both;
     min-height: 0px;
     color: rgb(0, 0, 0);
-}
-
-#Be {
-    float: left;
-    height: 3em;
-    margin-left: 3.428279%;
-    margin-top: 1.625em;
-    clear: none;
-    width: auto;
-    margin-right: 0%;
-    opacity: 0.5;
 }
 
 #box {
@@ -304,11 +276,27 @@
     width: 90.04191%;
 }
 
-#Be:hover {
-    opacity: 1;
+#Be {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0.59375px;
+    clear: none;
+    width: auto;
+    margin-right: 0px;
 }
 
-@media only screen and (max-width: 890px) {
+#box3 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 30px;
+    clear: both;
+    width: 100%;
+    border: 5px dashed rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 900px) {
     #port1 {
         margin-top: 30px;
         margin-left: 4.994381%;
@@ -351,9 +339,42 @@
     }
 
     #text5 {
-        margin-top: 44px;
-        margin-left: 4.99952%;
+        margin-top: 0px;
+        margin-left: 0.05577006%;
         clear: none;
+    }
+
+    #text6 {
+        margin-top: 0.25em;
+        margin-left: 0.203125em;
+        clear: none;
+    }
+
+    #Be {
+        opacity: 0.5;
+        margin-top: 96.84375px;
+        margin-left: 0%;
+        clear: none;
+    }
+
+    #GrayFooterBox {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+    }
+
+    #box1 {
+        height: 446px;
+    }
+
+    #box3 {
+        float: left;
+        height: 60%;
+        margin-left: 0%;
+        margin-top: 30px;
+        clear: both;
+        width: 100%;
+        border: 5px dashed rgb(0, 0, 0);
     }
 }
 
@@ -394,7 +415,7 @@
     }
 
     #navbar {
-        top: -1px;
+        top: 0px;
         left: 0%;
         bottom: auto;
         height: 4em;
@@ -410,54 +431,64 @@
         text-align: center;
     }
 
-    #box3 {
+    #box7 {
         margin-top: 0px;
         margin-right: 0%;
         margin-left: 0%;
+        clear: none;
+        opacity: 0.5;
     }
 
     #text6 {
         float: left;
         font-size: 2em;
-        width: 7em;
+        width: 4.2em;
         height: auto;
         text-align: left;
-        font-weight: normal;
+        font-weight: 100;
         line-height: 1em;
         margin-left: 0%;
         clear: none;
         min-height: 0px;
         margin-right: 0%;
-        color: rgb(135, 132, 132);
-    }
-
-    #Be {
-        float: none;
-        height: 3em;
-        margin-left: 0px;
-        clear: none;
-        width: auto;
-        margin-right: 0px;
-        margin-bottom: 0px;
+        color: rgb(0, 0, 0);
+        margin-top: 0.25em;
+        opacity: 0.5;
     }
 
     #GrayFooterBox {
         margin-top: 32px;
         margin-left: 0%;
         clear: none;
-        height: 142px;
-    }
-
-    #box2 {
-        clear: none;
-        width: 80%;
-        float: none;
-        margin-top: 1406.8125px;
-        margin-left: 0.04710199%;
+        height: 213px;
+        background-color: rgb(36, 36, 36);
     }
 
     #text3 {
         text-align: center;
+    }
+
+    #Be {
+        float: left;
+        height: auto;
+        margin-left: 35%;
+        margin-top: 7.125px;
+        clear: none;
+        width: auto;
+        margin-right: 0px;
+    }
+
+    #box1 {
+        margin-top: 70px;
+        margin-left: 4.950893%;
+        clear: both;
+    }
+
+    #box6 {
+        display: block;
+        width: 50%;
+        height: 100px;
+        visibility: visible;
     }
 }
 
