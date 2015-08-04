@@ -21,16 +21,17 @@
 #port1 {
     float: left;
     height: 230px;
-    margin-left: 4.99423%;
+    margin-left: 0%;
     margin-top: 30px;
     clear: both;
-    width: 27%;
+    width: 30.000202%;
     background-color: rgb(135, 132, 132);
     background-image:url("img/Doodle%20UI.png");
     background-attachment: scroll;
     -webkit-background-size: cover;
     background-size: cover;
     display: block;
+    margin-right: 0%;
     background-position: 0% 0%;
     background-repeat: repeat repeat;
 }
@@ -38,11 +39,11 @@
 #port2 {
     float: left;
     height: 230px;
-    margin-left: 4.502247%;
+    margin-left: 5.000844%;
     margin-top: 30px;
     clear: none;
-    width: 27%;
-    margin-right: 4.5%;
+    width: 30.000202%;
+    margin-right: 0%;
     background-color: rgb(135, 132, 132);
     padding-right: 0%;
     padding-left: 0%;
@@ -55,7 +56,7 @@
     background-repeat: repeat repeat;
 }
 
-#text3 {
+#text4 {
     float: left;
     font-size: 2.5em;
     width: auto;
@@ -63,10 +64,11 @@
     text-align: left;
     font-weight: bold;
     line-height: 1em;
-    margin-left: 4.995748%;
-    margin-top: 24px;
+    margin-left: 0%;
+    margin-top: 0px;
     clear: none;
     min-height: 0px;
+    margin-right: 0%;
 }
 
 #port1:hover {
@@ -90,10 +92,10 @@
 #port3 {
     float: left;
     height: 230px;
-    margin-left: 0.00151846%;
+    margin-left: 4.999156%;
     margin-top: 30px;
     clear: none;
-    width: 27%;
+    width: 30.000202%;
     margin-right: 0%;
     background-color: rgb(135, 132, 132);
     background-image:url("img/User%20Flow.png");
@@ -143,7 +145,7 @@
     width: auto;
     height: auto;
     text-align: center;
-    font-weight: normal;
+    font-weight: 100;
     line-height: 1em;
     margin-left: auto;
     margin-top: 143px;
@@ -159,7 +161,7 @@
     width: auto;
     height: auto;
     text-align: center;
-    font-weight: normal;
+    font-weight: 100;
     line-height: 1em;
     margin-left: auto;
     margin-top: 0px;
@@ -169,13 +171,13 @@
     color: rgb(255, 255, 255);
 }
 
-#box {
+#box2 {
     float: left;
-    height: 340px;
-    margin-left: 4.99423%;
-    margin-top: 11px;
+    height: 271px;
+    margin-left: 0.04721913%;
+    margin-top: 0px;
     clear: both;
-    width: 90%;
+    width: 99.953455%;
     min-height: 50px;
     border-top-left-radius: 1px;
     border-top-right-radius: 1px;
@@ -183,9 +185,10 @@
     border-bottom-left-radius: 1px;
     border-width: 5px;
     border-style: dashed;
+    margin-right: 0%;
 }
 
-#text4 {
+#text5 {
     float: left;
     font-size: 2.5em;
     width: auto;
@@ -193,14 +196,15 @@
     text-align: left;
     font-weight: bold;
     line-height: 1em;
-    margin-left: 5.030673%;
-    margin-top: 54px;
-    clear: both;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
     min-height: 0px;
     margin-right: 0%;
+    min-width: 0px;
 }
 
-#box1 {
+#box3 {
     float: left;
     height: 3em;
     margin-left: 0%;
@@ -211,12 +215,12 @@
     background-attachment: scroll;
     -webkit-background-size: contain;
     background-size: contain;
-    opacity: 0.5;
+    opacity: 1;
     background-position: 0% 0%;
     background-repeat: no-repeat no-repeat;
 }
 
-#box1:hover {
+#box3:hover {
     opacity: 1;
 }
 
@@ -224,176 +228,84 @@
     float: left;
     height: 83px;
     margin-left: 0%;
-    margin-top: 32px;
+    margin-top: 67px;
     clear: both;
     width: 100%;
     background-color: rgb(165, 165, 165);
     min-width: 0px;
 }
 
-#text5 {
+#text6 {
     float: left;
     font-size: 2em;
     width: 7em;
     height: auto;
     text-align: left;
-    font-weight: normal;
+    font-weight: 100;
     line-height: 1em;
     margin: 0.25em 0% 0.03em;
     clear: none;
     min-height: 0px;
-    color: rgb(135, 132, 132);
+    color: rgb(0, 0, 0);
 }
 
 #Be {
     float: left;
     height: 3em;
-    margin-left: 0%;
-    margin-top: 1.5em;
+    margin-left: 3.428279%;
+    margin-top: 1.625em;
     clear: none;
     width: auto;
     margin-right: 0%;
-}
-
-#Twitter {
-    float: left;
-    height: 3em;
-    margin-left: 39.163306%;
-    margin-top: 1.5em;
-    clear: both;
-    width: 31.464214%;
-    margin-right: 0%;
-}
-
-#box2:hover {
-    opacity: 1;
-}
-
-#box2 {
-    float: left;
-    height: 3em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 3em;
     opacity: 0.5;
-    background-image:url("img/SVG%20Twitter.svg");
-    background-attachment: scroll;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
 }
 
-#text6 {
-    float: left;
-    font-size: 2em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0.25em 0% 0.03em;
-    clear: none;
-    min-height: 0px;
-    color: rgb(135, 132, 132);
-}
-
-#Linkedin {
-    float: left;
-    height: 3em;
-    margin-left: 39.163306%;
-    margin-top: 1.5em;
-    clear: both;
-    width: 31.464214%;
-    margin-right: 0%;
-}
-
-#box3:hover {
-    opacity: 1;
-}
-
-#box3 {
-    float: left;
-    height: 3em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 3em;
-    opacity: 0.5;
-    background-image:url("img/SVG%20LinkedIn.svg");
-    background-attachment: scroll;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
-}
-
-#text7 {
-    float: left;
-    font-size: 2em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0.25em 0% 0.03em;
-    clear: none;
-    min-height: 0px;
-    color: rgb(135, 132, 132);
-}
-
-#Mail {
-    float: left;
-    height: 3em;
-    margin-left: 39.163306%;
-    margin-top: 1.5em;
-    clear: both;
-    width: 31.464214%;
-    margin-right: 0%;
-}
-
-#box4:hover {
-    opacity: 1;
-}
-
-#box4 {
-    float: left;
-    height: 3em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 3em;
-    opacity: 0.5;
-    background-image:url("img/SVG%20Mail.svg");
-    background-attachment: scroll;
-    -webkit-background-size: contain;
-    background-size: contain;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
-}
-
-#text8 {
-    float: left;
-    font-size: 2em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: normal;
-    line-height: 1em;
-    margin: 0.25em 0% 0.03em;
-    clear: none;
-    min-height: 0px;
-    color: rgb(135, 132, 132);
-}
-
-#SocialGroup {
+#box {
     float: none;
-    height: 100%;
-    margin: 0px auto;
+    height: 156px;
+    margin-left: auto;
+    margin-top: 0px;
     clear: none;
-    width: 20em;
-    display: block;
+    width: 90%;
+    margin-right: auto;
+}
+
+#Portfolio {
+    float: left;
+    height: auto;
+    margin-left: 4.99423%;
+    margin-top: 0px;
+    clear: none;
+    width: 89.999393%;
+}
+
+#text3 {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 36px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(135, 132, 132);
+    margin-right: auto;
+}
+
+#box1 {
+    float: left;
+    height: auto;
+    margin-left: 4.951713%;
+    margin-top: 70px;
+    clear: both;
+    width: 90.04191%;
+}
+
+#Be:hover {
+    opacity: 1;
 }
 
 @media only screen and (max-width: 890px) {
@@ -427,7 +339,7 @@
         display: block;
     }
 
-    #text3 {
+    #text4 {
         margin-top: 44px;
         margin-left: 4.99952%;
         clear: none;
@@ -438,7 +350,7 @@
         left: 0%;
     }
 
-    #text4 {
+    #text5 {
         margin-top: 44px;
         margin-left: 4.99952%;
         clear: none;
@@ -448,7 +360,7 @@
 @media only screen and (max-width: 700px) {
     #port3 {
         margin-top: 20px;
-        margin-left: 12.845982%;
+        margin-left: 12.845061%;
         clear: both;
         margin-right: 0%;
         width: 72.485577%;
@@ -458,7 +370,7 @@
     #port2 {
         margin-top: 20px;
         margin-right: 0%;
-        margin-left: 12.845982%;
+        margin-left: 12.845061%;
         clear: both;
         width: 72.485577%;
         height: 363.21875px;
@@ -466,16 +378,19 @@
 
     #port1 {
         margin-top: 10px;
-        margin-left: 13.142857%;
-        clear: both;
+        margin-left: 13.142687%;
+        clear: none;
         width: 72.043269%;
         height: 387px;
     }
 
-    #text3 {
+    #text4 {
         margin-top: 83px;
-        margin-left: 31.307692%;
+        margin-left: auto;
         clear: none;
+        margin-right: auto;
+        float: none;
+        text-align: center;
     }
 
     #navbar {
@@ -485,19 +400,23 @@
         height: 4em;
     }
 
-    #text4 {
-        margin-top: 83px;
-        margin-left: 31.307692%;
+    #text5 {
+        margin-top: 0px;
+        margin-left: auto;
         clear: none;
+        width: 100%;
+        margin-right: auto;
+        float: none;
+        text-align: center;
     }
 
-    #box1 {
+    #box3 {
         margin-top: 0px;
         margin-right: 0%;
         margin-left: 0%;
     }
 
-    #text5 {
+    #text6 {
         float: left;
         font-size: 2em;
         width: 7em;
@@ -529,128 +448,16 @@
         height: 142px;
     }
 
-    #box {
-        margin-top: 1446.8125px;
-        margin-left: auto;
+    #box2 {
         clear: none;
         width: 80%;
-        margin-right: auto;
         float: none;
+        margin-top: 1406.8125px;
+        margin-left: 0.04710199%;
     }
 
-    #Twitter {
-        float: none;
-        height: 3em;
-        clear: none;
-        width: auto;
-        margin-right: 0px;
-        margin-left: 0px;
-        margin-bottom: 0px;
-    }
-
-    #box2 {
-        margin-top: 0px;
-        margin-right: 0%;
-        margin-left: 0%;
-        background-image:url("img/SVG%20Twitter.svg");
-        background-attachment: scroll;
-        -webkit-background-size: contain;
-        background-size: contain;
-        background-position: 0% 0%;
-        background-repeat: no-repeat no-repeat;
-    }
-
-    #text6 {
-        float: left;
-        font-size: 2em;
-        width: 7em;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin-left: 0%;
-        clear: none;
-        min-height: 0px;
-        margin-right: 0%;
-        color: rgb(135, 132, 132);
-    }
-
-    #Linkedin {
-        float: none;
-        height: 3em;
-        margin-left: 0px;
-        clear: none;
-        width: auto;
-        margin-right: 0px;
-        margin-bottom: 0px;
-    }
-
-    #box3 {
-        margin-top: 0px;
-        margin-right: 0%;
-        margin-left: 0%;
-        background-image:url("img/SVG%20LinkedIn.svg");
-        background-attachment: scroll;
-        -webkit-background-size: contain;
-        background-size: contain;
-        background-position: 0% 0%;
-        background-repeat: no-repeat no-repeat;
-    }
-
-    #text7 {
-        float: left;
-        font-size: 2em;
-        width: 7em;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin-left: 0%;
-        clear: none;
-        min-height: 0px;
-        margin-right: 0%;
-        color: rgb(135, 132, 132);
-    }
-
-    #Mail {
-        float: none;
-        height: 3em;
-        margin-left: 0px;
-        clear: none;
-        width: auto;
-        margin-right: 0px;
-        margin-bottom: 0px;
-    }
-
-    #box4 {
-        margin-top: 0px;
-        margin-right: 0%;
-        margin-left: 0%;
-        background-image:url("img/SVG%20Mail.svg");
-        background-attachment: scroll;
-        -webkit-background-size: contain;
-        background-size: contain;
-        background-position: 0% 0%;
-        background-repeat: no-repeat no-repeat;
-    }
-
-    #text8 {
-        float: left;
-        font-size: 2em;
-        width: 7em;
-        height: auto;
-        text-align: left;
-        font-weight: normal;
-        line-height: 1em;
-        margin-left: 0%;
-        clear: none;
-        min-height: 0px;
-        margin-right: 0%;
-        color: rgb(135, 132, 132);
-    }
-
-    #SocialGroup {
-        clear: none;
+    #text3 {
+        text-align: center;
     }
 }
 
