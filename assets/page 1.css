@@ -171,42 +171,6 @@
     color: rgb(255, 255, 255);
 }
 
-#text5 {
-    float: left;
-    font-size: 2.5em;
-    width: auto;
-    height: auto;
-    text-align: left;
-    font-weight: bold;
-    line-height: 1em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    min-height: 0px;
-    margin-right: 0%;
-    min-width: 0px;
-}
-
-#box7 {
-    float: left;
-    height: 3em;
-    margin-left: 0%;
-    margin-top: 0px;
-    clear: none;
-    width: 3em;
-    background-image:url("img/SVG%20Behance%20.svg");
-    background-attachment: scroll;
-    -webkit-background-size: contain;
-    background-size: contain;
-    opacity: 1;
-    background-position: 0% 0%;
-    background-repeat: no-repeat no-repeat;
-}
-
-#box7:hover {
-    opacity: 1;
-}
-
 #GrayFooterBox {
     float: left;
     height: 83px;
@@ -216,20 +180,6 @@
     width: 100%;
     background-color: rgb(165, 165, 165);
     min-width: 0px;
-}
-
-#text6 {
-    float: left;
-    font-size: 2em;
-    width: 5em;
-    height: auto;
-    text-align: left;
-    font-weight: 100;
-    line-height: 1em;
-    margin: -41px 0px 0px 48px;
-    clear: both;
-    min-height: 0px;
-    color: rgb(0, 0, 0);
 }
 
 #box {
@@ -267,33 +217,35 @@
     margin-right: auto;
 }
 
+#text5 {
+    float: left;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+}
+
+#ContactContainer {
+    float: left;
+    height: 400px;
+    margin: 80px 0px 0px 4.998455%;
+    clear: both;
+    width: 90%;
+}
+
 #box1 {
     float: left;
-    height: auto;
-    margin-left: 4.951713%;
-    margin-top: 70px;
-    clear: both;
-    width: 90.04191%;
-}
-
-#Be {
-    float: left;
-    height: auto;
+    height: 360px;
     margin-left: 0%;
-    margin-top: 0.59375px;
+    margin-top: 0px;
     clear: none;
-    width: auto;
-    margin-right: 0px;
-}
-
-#box3 {
-    float: left;
-    height: 60%;
-    margin-left: 0%;
-    margin-top: 30px;
-    clear: both;
     width: 100%;
-    border: 5px dashed rgb(0, 0, 0);
+    background-color: rgb(191, 191, 191);
 }
 
 @media only screen and (max-width: 900px) {
@@ -338,43 +290,33 @@
         left: 0%;
     }
 
-    #text5 {
-        margin-top: 0px;
-        margin-left: 0.05577006%;
-        clear: none;
-    }
-
-    #text6 {
-        margin-top: 0.25em;
-        margin-left: 0.203125em;
-        clear: none;
-    }
-
-    #Be {
-        opacity: 0.5;
-        margin-top: 96.84375px;
-        margin-left: 0%;
-        clear: none;
-    }
-
     #GrayFooterBox {
-        margin-top: 0px;
+        margin-top: 425px;
         margin-left: 0%;
         clear: both;
     }
 
-    #box1 {
-        height: 446px;
-    }
-
-    #box3 {
+    #text5 {
         float: left;
-        height: 60%;
-        margin-left: 0%;
-        margin-top: 30px;
+        font-size: 2.5em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: bold;
+        line-height: 1em;
+        margin-left: 0.39915876%;
+        margin-top: 13px;
+        clear: none;
+        min-height: 0px;
+        margin-right: 0%;
+    }
+
+    #ContactContainer {
+        float: left;
+        height: 500px;
+        margin: 80px 0px 0px 4.998455%;
         clear: both;
-        width: 100%;
-        border: 5px dashed rgb(0, 0, 0);
+        width: 90%;
     }
 }
 
@@ -421,41 +363,6 @@
         height: 4em;
     }
 
-    #text5 {
-        margin-top: 0px;
-        margin-left: auto;
-        clear: none;
-        width: 100%;
-        margin-right: auto;
-        float: none;
-        text-align: center;
-    }
-
-    #box7 {
-        margin-top: 0px;
-        margin-right: 0%;
-        margin-left: 0%;
-        clear: none;
-        opacity: 0.5;
-    }
-
-    #text6 {
-        float: left;
-        font-size: 2em;
-        width: 4.2em;
-        height: auto;
-        text-align: left;
-        font-weight: 100;
-        line-height: 1em;
-        margin-left: 0%;
-        clear: none;
-        min-height: 0px;
-        margin-right: 0%;
-        color: rgb(0, 0, 0);
-        margin-top: 0.25em;
-        opacity: 0.5;
-    }
-
     #GrayFooterBox {
         margin-top: 32px;
         margin-left: 0%;
@@ -468,27 +375,20 @@
         text-align: center;
     }
 
-    #Be {
-        float: left;
-        height: auto;
-        margin-left: 35%;
-        margin-top: 7.125px;
+    #text5 {
+        margin: 0px auto;
+        float: none;
         clear: none;
-        width: auto;
-        margin-right: 0px;
+        text-align: center;
     }
 
     #box1 {
-        margin-top: 70px;
-        margin-left: 4.950893%;
-        clear: both;
-    }
-
-    #box6 {
-        display: block;
-        width: 50%;
-        height: 100px;
-        visibility: visible;
+        float: left;
+        margin-left: 0%;
+        margin-top: 0px;
+        clear: none;
+        width: 100%;
+        background-color: rgb(191, 191, 191);
     }
 }
 
