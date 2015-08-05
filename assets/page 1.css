@@ -119,7 +119,7 @@
     left: 0%;
     bottom: auto;
     background-color: rgb(74, 144, 226);
-    opacity: 0.95;
+    opacity: 1;
 }
 
 #text {
@@ -173,16 +173,16 @@
 
 #GrayFooterBox {
     float: left;
-    height: 83px;
-    margin-left: 0%;
-    margin-top: 67px;
+    height: 221px;
     clear: both;
     width: 100%;
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(36, 36, 36);
     min-width: 0px;
+    margin-top: 67px;
+    margin-left: 0%;
 }
 
-#box {
+#SubHeader {
     float: none;
     height: 156px;
     margin-left: auto;
@@ -206,7 +206,7 @@
     font-size: 1.5em;
     width: auto;
     height: auto;
-    text-align: left;
+    text-align: center;
     font-weight: 100;
     line-height: 1em;
     margin-left: auto;
@@ -232,20 +232,171 @@
 
 #ContactContainer {
     float: left;
-    height: 400px;
-    margin: 80px 0px 0px 4.998455%;
+    height: auto;
+    margin: 80px 0px 0px 4.997349%;
     clear: both;
     width: 90%;
+    overflow: hidden;
 }
 
-#box1 {
+#SocialBlock {
     float: left;
-    height: 360px;
+    height: auto;
     margin-left: 0%;
     margin-top: 0px;
     clear: none;
     width: 100%;
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+}
+
+#box2 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+}
+
+#box4 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    display: block;
+}
+
+#box6 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    display: block;
+}
+
+#box1 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20Behance.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box3 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20Twitter.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box5 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20LinkedIn.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box7 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    opacity: 0.5;
+    background-image:url("img/SVG%20Mail.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box1:hover {
+    background-image:url("img/SVG%20Behance.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    display: block;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box3:hover {
+    background-image:url("img/SVG%20Twitter.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box5:hover {
+    background-image:url("img/SVG%20LinkedIn.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box7:hover {
+    background-image:url("img/SVG%20Mail.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
 }
 
 @media only screen and (max-width: 900px) {
@@ -257,13 +408,13 @@
 
     #port2 {
         margin-top: 30px;
-        margin-left: 4.501642%;
+        margin-left: 2.266633%;
         clear: none;
     }
 
     #port3 {
         margin-top: 30px;
-        margin-left: 0.00216113%;
+        margin-left: 2.23191%;
         clear: none;
     }
 
@@ -291,9 +442,9 @@
     }
 
     #GrayFooterBox {
+        clear: both;
         margin-top: 425px;
         margin-left: 0%;
-        clear: both;
     }
 
     #text5 {
@@ -318,6 +469,21 @@
         clear: both;
         width: 90%;
     }
+
+    #box6 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 0px;
+        width: 25%;
+    }
+
+    #box4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 25%;
+    }
 }
 
 @media only screen and (max-width: 700px) {
@@ -340,7 +506,7 @@
     }
 
     #port1 {
-        margin-top: 10px;
+        margin-top: 26px;
         margin-left: 13.142687%;
         clear: none;
         width: 72.043269%;
@@ -348,7 +514,7 @@
     }
 
     #text4 {
-        margin-top: 83px;
+        margin-top: 67px;
         margin-left: auto;
         clear: none;
         margin-right: auto;
@@ -364,11 +530,10 @@
     }
 
     #GrayFooterBox {
-        margin-top: 32px;
+        clear: both;
+        margin-top: 47.1875px;
         margin-left: 0%;
-        clear: none;
-        height: 213px;
-        background-color: rgb(36, 36, 36);
+        height: 268px;
     }
 
     #text3 {
@@ -380,15 +545,76 @@
         float: none;
         clear: none;
         text-align: center;
+        height: auto;
+        min-height: 0px;
     }
 
-    #box1 {
+    #SocialBlock {
         float: left;
         margin-left: 0%;
-        margin-top: 0px;
+        margin-top: 30px;
         clear: none;
         width: 100%;
-        background-color: rgb(191, 191, 191);
+    }
+
+    #ContactContainer {
+        height: 430px;
+        margin-top: 80px;
+        margin-left: 4.997768%;
+        clear: both;
+    }
+
+    #box6 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    #box4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 50%;
+        clear: both;
+    }
+
+    #box {
+        width: 50%;
+    }
+
+    #box2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    #box {
+        width: 100%;
+    }
+
+    #box2 {
+        width: 100%;
+    }
+
+    #GrayFooterBox {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 310px;
+    }
+
+    #ContactContainer {
+        height: 755px;
+    }
+
+    #box4 {
+        width: 100%;
+    }
+
+    #box6 {
+        width: 100%;
     }
 }
 
