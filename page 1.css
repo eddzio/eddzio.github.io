@@ -1,0 +1,620 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    float: none;
+}
+
+#Header {
+    float: none;
+    height: 368px;
+    margin: 0px auto;
+    clear: none;
+    width: 100%;
+    background-color: rgb(74, 144, 226);
+}
+
+#port1 {
+    float: left;
+    height: 230px;
+    margin-left: 0%;
+    margin-top: 30px;
+    clear: both;
+    width: 30.000202%;
+    background-color: rgb(135, 132, 132);
+    background-image:url("img/Doodle%20UI.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    margin-right: 0%;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#port2 {
+    float: left;
+    height: 230px;
+    margin-left: 5.000844%;
+    margin-top: 30px;
+    clear: none;
+    width: 30.000202%;
+    margin-right: 0%;
+    background-color: rgb(135, 132, 132);
+    padding-right: 0%;
+    padding-left: 0%;
+    background-image:url("img/Export%20Regular.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#text4 {
+    float: left;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    margin-right: 0%;
+}
+
+#port1:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
+}
+
+#port2:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
+}
+
+#port3:hover {
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    border: 1px solid rgb(44, 0, 255);
+}
+
+#port3 {
+    float: left;
+    height: 230px;
+    margin-left: 4.999156%;
+    margin-top: 30px;
+    clear: none;
+    width: 30.000202%;
+    margin-right: 0%;
+    background-color: rgb(135, 132, 132);
+    background-image:url("img/User%20Flow.png");
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    background-size: cover;
+    display: block;
+    background-position: 0% 0%;
+    background-repeat: repeat repeat;
+}
+
+#navbar {
+    float: left;
+    height: 4em;
+    clear: none;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    overflow: hidden;
+    top: 0px;
+    left: 0%;
+    bottom: auto;
+    background-color: rgb(74, 144, 226);
+    opacity: 1;
+}
+
+#text {
+    float: left;
+    font-size: 41px;
+    width: 162px;
+    height: auto;
+    text-align: left;
+    font-weight: normal;
+    line-height: 1em;
+    margin-left: 1.907191%;
+    margin-top: 10px;
+    clear: none;
+    min-height: 0px;
+    min-width: 0px;
+    font-family: helvetica;
+    color: rgb(255, 255, 255);
+}
+
+#text1 {
+    float: none;
+    font-size: 3em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 143px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+
+#text2 {
+    float: none;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    min-height: 0px;
+    margin-right: auto;
+    color: rgb(255, 255, 255);
+}
+
+#GrayFooterBox {
+    float: left;
+    height: 221px;
+    clear: both;
+    width: 100%;
+    background-color: rgb(36, 36, 36);
+    min-width: 0px;
+    margin-top: 67px;
+    margin-left: 0%;
+}
+
+#SubHeader {
+    float: none;
+    height: 156px;
+    margin-left: auto;
+    margin-top: 0px;
+    clear: none;
+    width: 90%;
+    margin-right: auto;
+}
+
+#Portfolio {
+    float: left;
+    height: auto;
+    margin-left: 4.99423%;
+    margin-top: 0px;
+    clear: none;
+    width: 89.999393%;
+}
+
+#text3 {
+    float: none;
+    font-size: 1.5em;
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-weight: 100;
+    line-height: 1em;
+    margin-left: auto;
+    margin-top: 36px;
+    clear: none;
+    min-height: 0px;
+    color: rgb(135, 132, 132);
+    margin-right: auto;
+}
+
+#text5 {
+    float: left;
+    font-size: 2.5em;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font-weight: bold;
+    line-height: 1em;
+    margin: 0px;
+    clear: none;
+    min-height: 0px;
+}
+
+#ContactContainer {
+    float: left;
+    height: auto;
+    margin: 80px 0px 0px 4.997349%;
+    clear: both;
+    width: 90%;
+    overflow: hidden;
+}
+
+#SocialBlock {
+    float: left;
+    height: auto;
+    margin-left: 0%;
+    margin-top: 0px;
+    clear: none;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+
+#box {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+}
+
+#box2 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+}
+
+#box4 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    display: block;
+}
+
+#box6 {
+    float: left;
+    height: 10em;
+    margin: 0px;
+    clear: none;
+    width: 25%;
+    display: block;
+}
+
+#box1 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20Behance.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box3 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20Twitter.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box5 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    background-image:url("img/SVG%20LinkedIn.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 0.5;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box7 {
+    float: left;
+    height: 60%;
+    margin-left: 0%;
+    margin-top: 2em;
+    clear: none;
+    width: 100%;
+    display: block;
+    margin-right: 0%;
+    min-width: 0px;
+    opacity: 0.5;
+    background-image:url("img/SVG%20Mail.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box1:hover {
+    background-image:url("img/SVG%20Behance.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    display: block;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box3:hover {
+    background-image:url("img/SVG%20Twitter.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box5:hover {
+    background-image:url("img/SVG%20LinkedIn.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#box7:hover {
+    background-image:url("img/SVG%20Mail.svg");
+    background-attachment: scroll;
+    -webkit-background-size: contain;
+    background-size: contain;
+    opacity: 1;
+    background-position: 50% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+@media only screen and (max-width: 900px) {
+    #port1 {
+        margin-top: 30px;
+        margin-left: 4.994381%;
+        clear: both;
+    }
+
+    #port2 {
+        margin-top: 30px;
+        margin-left: 2.266633%;
+        clear: none;
+    }
+
+    #port3 {
+        margin-top: 30px;
+        margin-left: 2.23191%;
+        clear: none;
+    }
+
+    .primaryContainer {
+        margin-left: 0%;
+        margin-right: 0px;
+        float: none;
+        clear: none;
+    }
+
+    #Header {
+        clear: none;
+        display: block;
+    }
+
+    #text4 {
+        margin-top: 44px;
+        margin-left: 4.99952%;
+        clear: none;
+    }
+
+    #navbar {
+        top: 0px;
+        left: 0%;
+    }
+
+    #GrayFooterBox {
+        clear: both;
+        margin-top: 425px;
+        margin-left: 0%;
+    }
+
+    #text5 {
+        float: left;
+        font-size: 2.5em;
+        width: auto;
+        height: auto;
+        text-align: left;
+        font-weight: bold;
+        line-height: 1em;
+        margin-left: 0.39915876%;
+        margin-top: 13px;
+        clear: none;
+        min-height: 0px;
+        margin-right: 0%;
+    }
+
+    #ContactContainer {
+        float: left;
+        height: 500px;
+        margin: 80px 0px 0px 4.998455%;
+        clear: both;
+        width: 90%;
+    }
+
+    #box6 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 0px;
+        width: 25%;
+    }
+
+    #box4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 25%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    #port3 {
+        margin-top: 20px;
+        margin-left: 12.845061%;
+        clear: both;
+        margin-right: 0%;
+        width: 72.485577%;
+        height: 389.375px;
+    }
+
+    #port2 {
+        margin-top: 20px;
+        margin-right: 0%;
+        margin-left: 12.845061%;
+        clear: both;
+        width: 72.485577%;
+        height: 363.21875px;
+    }
+
+    #port1 {
+        margin-top: 26px;
+        margin-left: 13.142687%;
+        clear: none;
+        width: 72.043269%;
+        height: 387px;
+    }
+
+    #text4 {
+        margin-top: 67px;
+        margin-left: auto;
+        clear: none;
+        margin-right: auto;
+        float: none;
+        text-align: center;
+    }
+
+    #navbar {
+        top: 0px;
+        left: 0%;
+        bottom: auto;
+        height: 4em;
+    }
+
+    #GrayFooterBox {
+        clear: both;
+        margin-top: 47.1875px;
+        margin-left: 0%;
+        height: 268px;
+    }
+
+    #text3 {
+        text-align: center;
+    }
+
+    #text5 {
+        margin: 0px auto;
+        float: none;
+        clear: none;
+        text-align: center;
+        height: auto;
+        min-height: 0px;
+    }
+
+    #SocialBlock {
+        float: left;
+        margin-left: 0%;
+        margin-top: 30px;
+        clear: none;
+        width: 100%;
+    }
+
+    #ContactContainer {
+        height: 430px;
+        margin-top: 80px;
+        margin-left: 4.997768%;
+        clear: both;
+    }
+
+    #box6 {
+        margin-top: 0px;
+        margin-left: 0px;
+        clear: none;
+        margin-right: 0px;
+        width: 50%;
+    }
+
+    #box4 {
+        margin-top: 0px;
+        margin-right: 0px;
+        margin-left: 0px;
+        width: 50%;
+        clear: both;
+    }
+
+    #box {
+        width: 50%;
+    }
+
+    #box2 {
+        width: 50%;
+    }
+}
+
+@media only screen and (max-width: 504px) {
+    #box {
+        width: 100%;
+    }
+
+    #box2 {
+        width: 100%;
+    }
+
+    #GrayFooterBox {
+        margin-top: 0px;
+        margin-left: 0%;
+        clear: both;
+        height: 310px;
+    }
+
+    #ContactContainer {
+        height: 755px;
+    }
+
+    #box4 {
+        width: 100%;
+    }
+
+    #box6 {
+        width: 100%;
+    }
+}
+
