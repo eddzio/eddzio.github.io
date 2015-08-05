@@ -292,7 +292,7 @@
     width: 100%;
     margin-right: 0%;
     min-width: 0px;
-    background-image:url("img/SVG%20Behance.svg");
+    background-image:url("img/PNG%20Behance.png");
     background-attachment: scroll;
     -webkit-background-size: contain;
     background-size: contain;
@@ -311,7 +311,7 @@
     display: block;
     margin-right: 0%;
     min-width: 0px;
-    background-image:url("img/SVG%20Twitter.svg");
+    background-image:url("img/PNG%20Twitter.png");
     background-attachment: scroll;
     -webkit-background-size: contain;
     background-size: contain;
@@ -330,7 +330,7 @@
     display: block;
     margin-right: 0%;
     min-width: 0px;
-    background-image:url("img/SVG%20LinkedIn.svg");
+    background-image:url("img/PNG%20LinkedIn.png");
     background-attachment: scroll;
     -webkit-background-size: contain;
     background-size: contain;
@@ -350,7 +350,7 @@
     margin-right: 0%;
     min-width: 0px;
     opacity: 0.5;
-    background-image:url("img/SVG%20Mail.svg");
+    background-image:url("img/PNG%20Mail.png");
     background-attachment: scroll;
     -webkit-background-size: contain;
     background-size: contain;
