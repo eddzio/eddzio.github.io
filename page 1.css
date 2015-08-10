@@ -107,6 +107,7 @@
 }
 
 #navbar {
+    Display:none;
     float: left;
     height: 4em;
     clear: none;
