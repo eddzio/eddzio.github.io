@@ -1,3 +1,8 @@
+Header, SubHeader, textFooter, P, text4, text5 {
+  font-family: 'Roboto', sans-serif;
+
+}
+
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -61,7 +66,7 @@
     width: auto;
     height: auto;
     text-align: left;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1em;
     margin-left: 0%;
     margin-top: 0px;
@@ -71,21 +76,37 @@
 }
 
 #port1:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -ms-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
 }
 
 #port2:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -ms-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
 }
 
 #port3:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 14px 0px;
+    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
+    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
+    -webkit-transition: all 150ms ease-in;
+    -moz-transition: all 150ms ease-in;
+    -ms-transition: all 150ms ease-in;
+    -o-transition: all 150ms ease-in;
+    transition: all 150ms ease-in;
 }
 
 #port3 {
@@ -107,6 +128,7 @@
 }
 
 #navbar {
+    display: none;
     float: left;
     height: 4em;
     clear: none;
@@ -127,14 +149,14 @@
     width: 162px;
     height: auto;
     text-align: left;
-    font-weight: normal;
+    font-weight: 100;
     line-height: 1em;
     margin-left: 1.907191%;
     margin-top: 10px;
     clear: none;
     min-height: 0px;
     min-width: 0px;
-    font-family: helvetica;
+    font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
 }
 
@@ -182,13 +204,16 @@
 }
 
 #SubHeader {
+    background-color: rgb(235, 235, 235);
+    color: (#000000, 0.60);
     float: none;
     height: 156px;
     margin-left: auto;
-    margin-top: 0px;
-    clear: none;
-    width: 90%;
     margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    clear: both;
+    width: 100%;
 }
 
 #Portfolio {
@@ -222,7 +247,7 @@
     width: auto;
     height: auto;
     text-align: left;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1em;
     margin: 0px;
     clear: none;
@@ -281,6 +306,8 @@
     width: 25%;
     display: block;
 }
+
+
 
 #box1 {
     float: left;
@@ -397,6 +424,26 @@
     background-position: 50% 0%;
     background-repeat: no-repeat no-repeat;
 }
+
+#textFooter {
+    color: #ffffff;
+    opacity: 0.70;
+    font-size: 1em;
+    font-weight: 100;
+    background-color: inherit;
+    text-align: center;
+    float: none;
+    height: 156px;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 30px;
+    margin-top: 30px;
+    clear: none;
+    width: 100%;
+}
+
+/* Media Query */
 
 @media only screen and (max-width: 900px) {
     #port1 {
@@ -616,4 +663,3 @@
         width: 100%;
     }
 }
-

@@ -107,6 +107,7 @@
 }
 
 #navbar {
+    display: none;
     float: left;
     height: 4em;
     clear: none;
@@ -616,4 +617,3 @@
         width: 100%;
     }
 }
-
