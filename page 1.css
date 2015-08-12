@@ -129,11 +129,7 @@ Header, SubHeader, textFooter, P, text4, text5 {
 }
 
 #navbar {
-<<<<<<< HEAD
     display: none;
-=======
-    Display:none;
->>>>>>> origin/master
     float: left;
     height: 4em;
     clear: none;
