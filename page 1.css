@@ -79,34 +79,40 @@ Header, SubHeader, textFooter, P, text4, text5 {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
-    -webkit-transition: all 150ms ease-in;
-    -moz-transition: all 150ms ease-in;
-    -ms-transition: all 150ms ease-in;
-    -o-transition: all 150ms ease-in;
-    transition: all 150ms ease-in;
+
+/* this animation looks laggy sometimes
+  -webkit-transition: all 150ms ease-in;
+  -moz-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  -o-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+*/
 }
 
 #port2:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
-    -webkit-transition: all 200ms ease-in;
-    -webkit-transition: all 150ms ease-in;
-    -moz-transition: all 150ms ease-in;
-    -ms-transition: all 150ms ease-in;
-    -o-transition: all 150ms ease-in;
-    transition: all 150ms ease-in;
+/* this animation looks laggy sometimes
+  -webkit-transition: all 150ms ease-in;
+  -moz-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  -o-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+*/
 }
 
 #port3:hover {
     -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
     border: 1px solid rgb(44, 0, 255);
-    -webkit-transition: all 150ms ease-in;
-    -moz-transition: all 150ms ease-in;
-    -ms-transition: all 150ms ease-in;
-    -o-transition: all 150ms ease-in;
-    transition: all 150ms ease-in;
+/* this animation looks laggy sometimes 
+  -webkit-transition: all 150ms ease-in;
+  -moz-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  -o-transition: all 150ms ease-in;
+  transition: all 150ms ease-in;
+*/
 }
 
 
