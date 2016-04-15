@@ -1,7 +1,48 @@
-Header, SubHeader, textFooter, P, text4, text5 {
-  font-family: 'Roboto', sans-serif;
 
+* {
+  margin: auto;
+  padding: 0px;
+  text-align: center;
 }
+
+.header {
+  color: white;
+  background-color: dodgerblue;
+  height: 400px;
+}
+
+.titletext {
+ margin: 0px auto 0px auto;
+}
+
+.header h1 {
+  margin: 0px;
+}
+
+
+.subheader {
+  background-color: #263238;
+  color: white;
+  height: 150px;
+}
+  .subheader p1 {
+    font-size: 1.8em;
+    font-weight: 100;
+  }
+  .subheadertext {
+    margin: auto;
+    width: 400px;
+
+  }
+
+.project:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+  box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+}
+
+
+/*old css*/
 
 .primaryContainer {
     height: auto;
@@ -13,14 +54,7 @@ Header, SubHeader, textFooter, P, text4, text5 {
     float: none;
 }
 
-#Header {
-    float: none;
-    height: 368px;
-    margin: 0px auto;
-    clear: none;
-    width: 100%;
-    background-color: rgb(74, 144, 226);
-}
+
 
 #port1 {
     float: left;
@@ -75,45 +109,12 @@ Header, SubHeader, textFooter, P, text4, text5 {
     margin-right: 0%;
 }
 
-#port1:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    border: 1px solid rgb(44, 0, 255);
-
-/* this animation looks laggy sometimes
-  -webkit-transition: all 150ms ease-in;
-  -moz-transition: all 150ms ease-in;
-  -ms-transition: all 150ms ease-in;
-  -o-transition: all 150ms ease-in;
-  transition: all 150ms ease-in;
-*/
+.project:hover {
+  -webkit-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+  -moz-box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+  box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
 }
 
-#port2:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    border: 1px solid rgb(44, 0, 255);
-/* this animation looks laggy sometimes
-  -webkit-transition: all 150ms ease-in;
-  -moz-transition: all 150ms ease-in;
-  -ms-transition: all 150ms ease-in;
-  -o-transition: all 150ms ease-in;
-  transition: all 150ms ease-in;
-*/
-}
-
-#port3:hover {
-    -webkit-box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    box-shadow: rgb(70, 70, 70) 0px 3px 3px 0px;
-    border: 1px solid rgb(44, 0, 255);
-/* this animation looks laggy sometimes 
-  -webkit-transition: all 150ms ease-in;
-  -moz-transition: all 150ms ease-in;
-  -ms-transition: all 150ms ease-in;
-  -o-transition: all 150ms ease-in;
-  transition: all 150ms ease-in;
-*/
-}
 
 
 #port3 {
@@ -134,21 +135,7 @@ Header, SubHeader, textFooter, P, text4, text5 {
     background-repeat: repeat repeat;
 }
 
-#navbar {
-    display: none;
-    float: left;
-    height: 4em;
-    clear: none;
-    width: 100%;
-    position: fixed;
-    z-index: 1;
-    overflow: hidden;
-    top: 0px;
-    left: 0%;
-    bottom: auto;
-    background-color: rgb(74, 144, 226);
-    opacity: 1;
-}
+
 
 #text {
     float: left;
@@ -210,18 +197,7 @@ Header, SubHeader, textFooter, P, text4, text5 {
     margin-left: 0%;
 }
 
-#SubHeader {
-    background-color: rgb(235, 235, 235);
-    color: (#000000, 0.60);
-    float: none;
-    height: 156px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0px;
-    margin-bottom: 30px;
-    clear: both;
-    width: 100%;
-}
+
 
 #Portfolio {
     float: left;
