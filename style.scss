@@ -4,3 +4,68 @@ $font-size: 16px;
 $color: white;
 $background-color1: #1976d2; //blue 700
 $background-color2: #263238; //bluegray800
+
+.body {
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  opacity: 0.6;
+}
+
+h3 {
+  opacity: 0.3;
+}
+
+.frame {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  border: solid 1vw black;
+  overflow: hidden;
+  .header {
+    max-width: 50vw;
+    margin: 10vw;
+    display: inline-block;
+  }
+}
+
+.sidebar {
+  float: right;
+  width: 40vw;
+  height: 100vh;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: 0px;
+  overflow: scroll;
+  .project-container {
+    height: 33vh;
+    width: 100%;
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+    p {
+      position: absolute;
+      bottom: 0;
+    }
+  }
+}
+
+
+/// So, yeah, this to make it look nice on your phone.
+
+@media only screen
+and (min-device-width : 320px)
+and (max-device-width : 568px) {
+  .sidebar {
+    overflow: visible;
+    display: block;
+    width: 100vw;
+  }
+}
