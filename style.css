@@ -3,7 +3,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'Open Sans', sans-serif;
-  opacity: 0.6; }
+  opacity: 0.6;
+  margin-top: 50px; }
 
 h3 {
   opacity: 0.3; }
@@ -15,67 +16,19 @@ h3 {
   border: solid 15px black;
   overflow: hidden; }
   .frame .header {
-    width: 55vw;
-    height: 33vh;
-    display: inline-block; }
+    display: block;
+    width: 50vw;
+    margin: auto;
+    margin-top: 25vh; }
     .frame .header h1, .frame .header h3 {
       display: block;
       margin: auto; }
 
-.sidebar {
-  float: right;
-  width: 40vw;
-  height: 100vh;
-  display: inline-block;
-  margin-left: auto;
-  margin-right: 0px;
-  overflow: scroll;
-  border-left: solid black 15px; }
-  .sidebar .project-container {
-    height: 33vh;
-    width: 100%;
-    display: block;
-    color: white;
-    text-align: center;
-    position: relative;
-    background-position: left top;
-    background-size: 100%;
-    border-top: solid black 5px; }
-    .sidebar .project-container:hover {
-      opacity: 0.8;
-      -webkit-transition: all 300ms ease-in-out;
-      -moz-transition: all 300ms ease-in-out;
-      -ms-transition: all 300ms ease-in-out;
-      -o-transition: all 300ms ease-in-out;
-      transition: all 300ms ease-in-out; }
-
-#project1 {
-  background-image: url(assets/project1.png); }
-  #project1:hover {
-    filter: blur(5px); }
-
-#project2 {
-  background-image: url(assets/project2.png); }
-
-#project3 {
-  background-image: url(assets/project3.png); }
-
-#project4 {
-  background-image: url(assets/project4.png); }
-
-@media only screen and (min-width: 30px) and (max-width: 625px) {
-  .frame .header {
-    z-index: 1;
-    display: block;
-    width: 100vw;
-    -webkit-box-shadow: 0 5px 4px 2px #333333;
-    box-shadow: 0 5px 4px 2px #333333; }
-  .frame .sidebar {
-    overflow: scroll;
-    display: block;
-    width: 100vw;
-    border-left: 0px; }
-  .frame a {
-    background-position: center; } }
+a {
+  color: black;
+  margin-right: 50px;
+  font-size: 20px; }
+  a:hover {
+    color: gray; }
 
 /*# sourceMappingURL=style.css.map */
