@@ -17,12 +17,11 @@
      <!-- MyCSS -->
      <link rel="stylesheet" type="text/css" href="style.css">
      <!-- fonts -->
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet">
-     <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700" rel="stylesheet">
      <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
      <meta name=viewport content="width=device-width, initial-scale=1">
 
-     <!-- open graph -->
+     <!-- JQuery -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
 
 <!--Google Analytics-->
@@ -41,7 +40,8 @@
 </head>
 
 <body>
-  <div class="frame">
+
+  <div id="frame">
     <div class="header">
       <h1>Eduardo Orozco</h1>
       <h3>UX Designer</h3>
@@ -51,10 +51,30 @@
       <a href="mailto:edudesignsforhumans@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
       <a href="https://ar.linkedin.com/in/eddzio" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     </div>
-
+    <a href="#!" id="scrollerdown"><h3>About Me <i class="fa fa-chevron-down"></i></h3></a>
   </div>
 
 
+  <div id="aboutme">
+    <h2>I'm a UX designer specialized in UI. I'm Passionate about the way design shapes our world.</h2><br />
+    <h2>I'm a full-time problem solver and design critic, but I'm always open to criticism as well. I believe design is a collaborative enterprise.</h2>
+    <a href="#!" id="scrollerup"><h3>Back to top <i class="fa fa-chevron-up"></i></h3></a>
+
+  </div>
+
+<script type="text/javascript">
+$("#scrollerdown").click(function() {
+	$('html,body').animate({
+	scrollTop: $("#aboutme").offset().top},
+	'smooth');
+	});</script>
+
+<script type="text/javascript">
+$("#scrollerup").click(function() {
+	$('html,body').animate({
+	scrollTop: $("#frame").offset().top},
+	'smooth');
+	});</script>
 
 </body>
 </html>

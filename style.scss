@@ -4,35 +4,46 @@ $font-size: 16px;
 $color: white;
 $background-color1: #1976d2; //blue 700
 $background-color2: #263238; //bluegray800
+$animation-time: 3000ms;
 
-.body {
+body {
+
 }
 
+
+
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: Century Gothic, sans-serif;
 }
 
 p {
-  font-family: 'Open Sans', sans-serif;
-  opacity: 0.6;
+  font-family: Century Gothic, sans-serif;
+  opacity: 0.3;
   margin-top: 50px;
 }
-
+h1 {
+  color: black;
+  font-weight: bold;
+}
 h3 {
   opacity: 0.3;
+  font-weight: bold;
 }
 
-.frame {
+#frame {
   height: 100vh;
   width: 100vw;
   box-sizing: border-box;
-  border: solid 15px black;
   overflow: hidden;
+  position: relative;
   .header {
     display: block;
     width: 50vw;
-    margin: auto;
-    margin-top: 23vh;
+    position: absolute;
+    left: 20vw;
+    bottom: 45vh;
+    animation: goup 1000ms ease-out, fadein 1000ms;
+
     h1, h3 {
       display: block;
       margin: auto;
@@ -42,12 +53,76 @@ h3 {
 
 a {
   color: black;
+  opacity: 0.3;
   margin-right: 50px;
   font-size: 20px;
   &:hover {
-    color: gray;
+    text-decoration: none;
+    border-bottom: solid 0.8vh black;
+    bottom: 3.2vh;
+    color: black;
+    opacity: 1;
+  }
+  &:focus, &:active {
+    color: dodgerblue;
+    border-bottom: solid 0.8vh dodgerblue;
+    bottom: 3.2vh;
+    text-decoration: none;
   }
 }
+
+#scrollerdown, #scrollerup { //links
+  position: absolute;
+  bottom: 4vh;
+  right: 4vw;
+  opacity: 1;
+  color: black;
+  animation: fadein 2000ms ease-in;
+  &:hover {
+    text-decoration: none;
+    border-bottom: solid 0.8vh black;
+    bottom: 3.2vh;
+  }
+  &:focus, &:active {
+    color: dodgerblue;
+    border-bottom: solid 0.8vh dodgerblue;
+    bottom: 3.2vh;
+    text-decoration: none;
+  }
+  h3 {
+    opacity: 1;
+  }
+
+}
+
+#aboutme { //div
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  background-color: white;
+  position: relative;
+  padding: 5vw;
+  h2 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+//animations
+@keyframes fadein {
+  0% {opacity: 0}
+  100% {opacity: 1}
+}
+@keyframes goup {
+  0% {bottom: 30vh}
+  100% {bottom: 45vh}
+}
+@keyframes grow {
+0% {transform: scale(1);}
+100% {transform: scale(2);}
+}
+
+
 
 /// So, yeah, this to make it look nice on your phone.
 
