@@ -41,39 +41,63 @@
 
 <body>
 
-  <div id="frame">
-    <div class="header">
-      <h1>Eduardo Orozco</h1>
-      <h3>UX Designer</h3>
-      <p>Crafting digital experiences since 2010</p>
-      <a href="https://www.behance.net/eddzio" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
-      <a href="http://www.twitter.com/eddzio" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-      <a href="mailto:edudesignsforhumans@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-      <a href="https://ar.linkedin.com/in/eddzio" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-    </div>
-    <a href="#!" id="scrollerdown"><h3>About Me <i class="fa fa-chevron-down"></i></h3></a>
+<!--/////////////////////////////////////////////////////// SECTION 1, HOME -->
+<div id="home" class="section"> 
+  <div class="header">
+    <h1>Eduardo Orozco</h1>
+    <h3>UX Designer</h3>
+    <p>Crafting digital experiences since 2010</p>
+    <a href="https://www.behance.net/eddzio" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+    <a href="http://www.twitter.com/eddzio" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+    <a href="mailto:edudesignsforhumans@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+    <a href="https://ar.linkedin.com/in/eddzio" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
   </div>
 
+  <ul id="links-list">
+    <li class="nav"><a href="#!" id="scrolltoprojects"><h5>Projects</h5></a></li>
+    <li class="nav"><a href="#!" id="scrolltoaboutme"><h5>About Me</h5></a></li>
+    <li class="nav"><a href="#!" id="scrollhome"><h5>Home</h5></a></li>
+  </ul>
+</div>
 
-  <div id="aboutme">
-    <h2>I'm a UX designer specialized in UI. I'm Passionate about the way design shapes our world.</h2><br />
-    <h2>I'm a full-time problem solver and design critic, but I'm always open to criticism as well. I believe design is a collaborative enterprise.</h2>
-    <a href="#!" id="scrollerup"><h3>Back to top <i class="fa fa-chevron-up"></i></h3></a>
+<!--/////////////////////////////////////////////////////// SECTION 2, PROJECTS -->
+<div id="projects" class="section"> 
+  <h2>Curated Projects</h2>
 
-  </div>
+  <ul>
+    <li><a href="https://www.behance.net/gallery/41789993/Daily-UI-Picks" target="blank"></a></li>
+    <li><a href="https://www.behance.net/gallery/27979917/Doodle-UI-redesign" target="blank"></a></li>
+    <li><a href="https://www.behance.net/gallery/28199165/Credit-Card-Input-Animation" target="blank"></a></li>
+  </ul>
+</div>
+
+<!--/////////////////////////////////////////////////////// SECTION 3, ABOUT ME -->
+
+<div id="aboutme" class="section"> 
+  <h4>I'm a UX designer specialized in UI. I'm Passionate about the way design shapes our world.</h4><br />
+  <h4>I'm a full-time problem solver and design critic, but I'm always open to criticism as well. I believe design is a collaborative enterprise.</h4>
+  
+</div>
 
 <script type="text/javascript">
-$("#scrollerdown").click(function() {
+$("#scrolltoaboutme").click(function() {
+  $('html,body').animate({
+  scrollTop: $("#aboutme").offset().top},
+  400);
+  });</script>
+
+<script type="text/javascript">
+$("#scrolltoprojects").click(function() {
 	$('html,body').animate({
-	scrollTop: $("#aboutme").offset().top},
-	'smooth');
+	scrollTop: $("#projects").offset().top},
+	400);
 	});</script>
 
 <script type="text/javascript">
-$("#scrollerup").click(function() {
+$("#scrollhome").click(function() {
 	$('html,body').animate({
-	scrollTop: $("#frame").offset().top},
-	'smooth');
+	scrollTop: $("#home").offset().top},
+	400);
 	});</script>
 
 </body>
