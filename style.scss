@@ -76,7 +76,7 @@ a {
   }
 }
 
-#links-list { //home
+#navigation { //home
   position: fixed;
   bottom: 3vh;
   right: 5vw;
@@ -193,8 +193,24 @@ a {
 @media only screen
 and (min-width : 30px)
 and (max-width : 625px) {
-
   a {
     margin-right: 16px;
+  }
+  #navigation {
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 5vh;
+    h5 {
+      margin: 0px;
+    }
+    ul {
+      margin-right: 0px;
+    }
   }
 }

@@ -51,14 +51,14 @@ a {
       display: block;
       margin: auto; }
 
-#links-list {
+#navigation {
   position: fixed;
   bottom: 3vh;
   right: 5vw;
   width: auto;
   z-index: 1;
   animation: fadein 1s ease-out; }
-  #links-list .nav {
+  #navigation .nav {
     opacity: 1;
     color: black;
     display: inline-block;
@@ -144,6 +144,21 @@ a {
     opacity: 1; } }
 @media only screen and (min-width: 30px) and (max-width: 625px) {
   a {
-    margin-right: 16px; } }
+    margin-right: 16px; }
+
+  #navigation {
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 5vh; }
+    #navigation h5 {
+      margin: 0px; }
+    #navigation ul {
+      margin-right: 0px; } }
 
 /*# sourceMappingURL=style.css.map */
