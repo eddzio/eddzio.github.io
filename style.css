@@ -17,14 +17,13 @@ h3 {
 
 a {
   color: black;
-  opacity: 0.3;
   margin-right: 50px;
-  font-size: 20px; }
-  a:hover, a:focus, a:active {
+  font-size: 20px;
+  opacity: 1; }
+  a:hover {
     text-decoration: none;
     bottom: 3.2vh;
-    color: dodgerblue;
-    opacity: 1; }
+    color: dodgerblue; }
 
 .section {
   height: 100vh;
@@ -44,14 +43,26 @@ a {
     #home .header h1, #home .header h3 {
       display: block;
       margin: auto; }
+    #home .header a, #home .header h5 {
+      color: black;
+      text-decoration: none; }
+      #home .header a:hover, #home .header a:active, #home .header h5:hover, #home .header h5:active {
+        color: dodgerblue; }
 
 #navigation {
   position: fixed;
   bottom: 3vh;
-  right: 5vw;
+  right: 3vw;
   width: auto;
   z-index: 1;
-  animation: fadein 1s ease-out; }
+  animation: fadein 1s ease-out;
+  column-count: 3; }
+  #navigation a, #navigation h5 {
+    color: black;
+    text-decoration: none;
+    display: inline-block; }
+    #navigation a:hover, #navigation a:active, #navigation h5:hover, #navigation h5:active {
+      color: dodgerblue; }
 
 #projects {
   position: relative; }

@@ -2,8 +2,6 @@
 
 $font-size: 16px;
 $color: white;
-$background-color1: #1976d2; //blue 700
-$background-color2: #263238; //bluegray800
 $animation-time: 3000ms;
 
 
@@ -31,14 +29,13 @@ h3 {
 
 a {
   color: black;
-  opacity: 0.3;
   margin-right: 50px;
   font-size: 20px;
-  &:hover, &:focus, &:active {
+  opacity: 1;
+  &:hover {
     text-decoration: none;
     bottom: 3.2vh;
     color: dodgerblue;
-    opacity: 1;
   }
   
 }
@@ -66,18 +63,32 @@ a {
       display: block;
       margin: auto;
     }
+    a, h5 {
+    color: black;
+    text-decoration: none;
+      &:hover, &:active {
+      color: dodgerblue;
+      }
+    }
   }
 }
 
 #navigation { //home
   position: fixed;
   bottom: 3vh;
-  right: 5vw;
+  right: 3vw;
   width: auto;
   z-index: 1;
   animation: fadein 1s ease-out;
-  
- 
+  column-count: 3;
+  a, h5 {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+    &:hover, &:active {
+      color: dodgerblue;
+    }
+  }
 }
 
 ///////////////////////////////////////////// SECTION: PROJECTS
