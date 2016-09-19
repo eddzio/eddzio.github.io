@@ -1,7 +1,7 @@
 {
   "name": "edz.io",
   "version": "2.1.0",
-  "description": "",
+  "description": "Eduardo Orozco | UX Designer & Web Developer",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/eddzio/eddzio.github.io/issues"
   },
-  "homepage": "https://github.com/eddzio/eddzio.github.io#readme"
+  "homepage": "https://github.com/eddzio/eddzio.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1"
+  }
 }

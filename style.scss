@@ -34,19 +34,13 @@ a {
   opacity: 0.3;
   margin-right: 50px;
   font-size: 20px;
-  &:hover {
+  &:hover, &:focus, &:active {
     text-decoration: none;
-    border-bottom: solid 0.8vh black;
     bottom: 3.2vh;
-    color: black;
+    color: dodgerblue;
     opacity: 1;
   }
-  &:focus, &:active {
-    color: dodgerblue;
-    border-bottom: solid 0.8vh dodgerblue;
-    bottom: 3.2vh;
-    text-decoration: none;
-  }
+  
 }
 
 //////////////////////////////////////////////////////////////////////////////sections and content
@@ -67,8 +61,7 @@ a {
     position: absolute;
     left: 5vw;
     top: 15vh;
-    animation: intro 500ms ease-in-out;
-
+    animation: rise 500ms ease-in-out;
     h1, h3 {
       display: block;
       margin: auto;
@@ -84,28 +77,10 @@ a {
   z-index: 1;
   animation: fadein 1s ease-out;
   
-
-  .nav { //links
-  opacity: 1;
-  color: black;
-  display: inline-block;
-  margin-right: 3vw;
-  color: gray;
-  }
+ 
 }
 
-#aboutme { //div
-  height: 100vh;
-  width: 100vw;
-  color: black;
-  position: relative;
-  padding: 5vw;
-  h4 {
-    font-size: 24px;
-    line-height: 32px;
-  }
-}
-
+///////////////////////////////////////////// SECTION: PROJECTS
 #projects {
   position: relative;
   h2 {
@@ -130,37 +105,50 @@ a {
       display: inline-block;
       &:first-child{
         margin-right: 2.5vw;
-        background-image: url(assets/project1.png);
+        background-image: url(/img/project1.png);
       }
       &:nth-child(2) {
-        background-image: url(assets/project2.png);
+        background-image: url(/img/project2.png);
       }
       &:nth-child(3) {
         margin-left: 2.5vw;
-        background-image: url(assets/project3.png);
+        background-image: url(/img/project3.png);
         background-position: center;
       }
       &:hover {
           box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
           transform: translateY(-5px);
-          -webkit-transition: all 100ms ease-out;
-          -moz-transition: all 100ms ease-out;
-          -ms-transition: all 100ms ease-out;
-          -o-transition: all 100ms ease-out;
-          transition: all 100ms ease-out;
+          -webkit-transition: all 200ms ease-out;
+          -moz-transition: all 200ms ease-out;
+          -ms-transition: all 200ms ease-out;
+          -o-transition: all 200ms ease-out;
+          transition: all 200ms ease-out;
       }
       a {
         display: block;
         height: 100%;
         width: 100%;
-        border-bottom: none;
       }
     }
   }
 }
 
+///////////////////////////////////////////// SECTION: ABOUT ME
+
+#aboutme { 
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  position: relative;
+  padding: 5vw;
+  h4 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
 //////////////////////////////////////---  ANIMATION  --//////////////////////////////////////////////////////////////
-@keyframes intro {
+@keyframes rise {
    0% {
       opacity: 0; 
         -moz-transform: translateY(100px);
@@ -179,7 +167,7 @@ a {
   }
 }
 
-@keyframes fadein { //for nav
+@keyframes fadein { 
   0% {opacity: 0;}
   50% {opacity: 0;}
   51% {opacity: 0.1;}
@@ -187,7 +175,7 @@ a {
 }
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////  QUERIES
+///////////////////////////////////////////////////////////////////////////////////MOBILE MEDIA QUERIES
 /// So, yeah, this is for making it look nice on your phone.
 
 @media only screen

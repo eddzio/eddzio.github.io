@@ -20,17 +20,11 @@ a {
   opacity: 0.3;
   margin-right: 50px;
   font-size: 20px; }
-  a:hover {
+  a:hover, a:focus, a:active {
     text-decoration: none;
-    border-bottom: solid 0.8vh black;
     bottom: 3.2vh;
-    color: black;
-    opacity: 1; }
-  a:focus, a:active {
     color: dodgerblue;
-    border-bottom: solid 0.8vh dodgerblue;
-    bottom: 3.2vh;
-    text-decoration: none; }
+    opacity: 1; }
 
 .section {
   height: 100vh;
@@ -46,7 +40,7 @@ a {
     position: absolute;
     left: 5vw;
     top: 15vh;
-    animation: intro 500ms ease-in-out; }
+    animation: rise 500ms ease-in-out; }
     #home .header h1, #home .header h3 {
       display: block;
       margin: auto; }
@@ -58,22 +52,6 @@ a {
   width: auto;
   z-index: 1;
   animation: fadein 1s ease-out; }
-  #navigation .nav {
-    opacity: 1;
-    color: black;
-    display: inline-block;
-    margin-right: 3vw;
-    color: gray; }
-
-#aboutme {
-  height: 100vh;
-  width: 100vw;
-  color: black;
-  position: relative;
-  padding: 5vw; }
-  #aboutme h4 {
-    font-size: 24px;
-    line-height: 32px; }
 
 #projects {
   position: relative; }
@@ -97,28 +75,37 @@ a {
       display: inline-block; }
       #projects ul li:first-child {
         margin-right: 2.5vw;
-        background-image: url(assets/project1.png); }
+        background-image: url(/img/project1.png); }
       #projects ul li:nth-child(2) {
-        background-image: url(assets/project2.png); }
+        background-image: url(/img/project2.png); }
       #projects ul li:nth-child(3) {
         margin-left: 2.5vw;
-        background-image: url(assets/project3.png);
+        background-image: url(/img/project3.png);
         background-position: center; }
       #projects ul li:hover {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         transform: translateY(-5px);
-        -webkit-transition: all 100ms ease-out;
-        -moz-transition: all 100ms ease-out;
-        -ms-transition: all 100ms ease-out;
-        -o-transition: all 100ms ease-out;
-        transition: all 100ms ease-out; }
+        -webkit-transition: all 200ms ease-out;
+        -moz-transition: all 200ms ease-out;
+        -ms-transition: all 200ms ease-out;
+        -o-transition: all 200ms ease-out;
+        transition: all 200ms ease-out; }
       #projects ul li a {
         display: block;
         height: 100%;
-        width: 100%;
-        border-bottom: none; }
+        width: 100%; }
 
-@keyframes intro {
+#aboutme {
+  height: 100vh;
+  width: 100vw;
+  color: black;
+  position: relative;
+  padding: 5vw; }
+  #aboutme h4 {
+    font-size: 24px;
+    line-height: 32px; }
+
+@keyframes rise {
   0% {
     opacity: 0;
     -moz-transform: translateY(100px);
@@ -133,6 +120,7 @@ a {
     -o-transform: translateY(0px);
     -ms-transform: translateY(0px);
     transform: translateY(0px); } }
+
 @keyframes fadein {
   0% {
     opacity: 0; }
@@ -142,10 +130,10 @@ a {
     opacity: 0.1; }
   100% {
     opacity: 1; } }
+
 @media only screen and (min-width: 30px) and (max-width: 625px) {
   a {
     margin-right: 16px; }
-
   #navigation {
     background-color: black;
     color: white;
@@ -160,5 +148,3 @@ a {
       margin: 0px; }
     #navigation ul {
       margin-right: 0px; } }
-
-/*# sourceMappingURL=style.css.map */
