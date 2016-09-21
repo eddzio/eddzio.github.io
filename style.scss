@@ -216,4 +216,10 @@ and (max-width : 625px) {
       margin-right: 0px;
     }
   }
+  #projects {
+    overflow: scroll;
+    ul {
+      padding: 0px;
+    }
+  }
 }

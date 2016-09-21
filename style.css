@@ -162,4 +162,8 @@ a {
       color: white;
       text-align: center; }
     #navigation ul {
-      margin-right: 0px; } }
+      margin-right: 0px; }
+  #projects {
+    overflow: scroll; }
+    #projects ul {
+      padding: 0px; } }
