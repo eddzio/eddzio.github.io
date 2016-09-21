@@ -73,7 +73,7 @@ a {
   }
 }
 
-#navigation { //home
+#navigation { //desktop
   position: fixed;
   bottom: 3vh;
   right: 3vw;
@@ -81,10 +81,13 @@ a {
   z-index: 1;
   animation: fadein 1s ease-out;
   column-count: 3;
+  column-gap: 1em;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center;
   a, h5 {
     color: black;
     text-decoration: none;
-    display: inline-block;
     &:hover, &:active {
       color: dodgerblue;
     }
@@ -220,6 +223,7 @@ and (max-width : 625px) {
     overflow: scroll;
     ul {
       padding: 0px;
+
     }
   }
 }

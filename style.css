@@ -56,11 +56,14 @@ a {
   width: auto;
   z-index: 1;
   animation: fadein 1s ease-out;
-  column-count: 3; }
+  column-count: 3;
+  column-gap: 1em;
+  text-decoration: none;
+  list-style-type: none;
+  text-align: center; }
   #navigation a, #navigation h5 {
     color: black;
-    text-decoration: none;
-    display: inline-block; }
+    text-decoration: none; }
     #navigation a:hover, #navigation a:active, #navigation h5:hover, #navigation h5:active {
       color: dodgerblue; }
 
