@@ -56,8 +56,15 @@ a {
   width: auto;
   z-index: 1;
   animation: fadein 1s ease-out;
+  -moz-column-count: 3;
+  -moz-column-gap: 10px;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 10px;
   column-count: 3;
-  column-gap: 1em;
+  column-gap: 10px;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
   text-decoration: none;
   list-style-type: none;
   text-align: center; }
@@ -114,10 +121,11 @@ a {
   width: 100vw;
   color: black;
   position: relative;
-  padding: 5vw; }
+  padding: 1em; }
   #aboutme h4 {
     font-size: 24px;
-    line-height: 32px; }
+    line-height: 32px;
+    width: 80%; }
 
 @keyframes rise {
   0% {
@@ -158,7 +166,12 @@ a {
     top: 0px;
     left: 0px;
     height: 5vh;
+    -moz-column-count: 3;
+    -moz-column-gap: 10px;
+    -webkit-column-count: 3;
+    -webkit-column-gap: 10px;
     column-count: 3;
+    column-gap: 10px;
     text-align: center; }
     #navigation h5 {
       margin: 0px;
