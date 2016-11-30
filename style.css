@@ -25,13 +25,13 @@ a {
     bottom: 3.2vh;
     color: dodgerblue; }
 
-#aboutme a {
+#aboutme h4 a {
   color: dodgerblue;
   font-size: inherit;
   text-decoration: none;
   margin-right: 0px; 
 }
-#aboutme a:hover {opacity: 0.7;}
+#aboutme h4 a:hover {opacity: 0.7;}
 
 .section {
   height: 100vh;
