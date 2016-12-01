@@ -2,15 +2,20 @@ body {
   padding: 0px;
   margin: 0px; }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h5, h4, h6 {
   font-family: Century Gothic, sans-serif;
   font-weight: bold;
   color: black; }
 
+h4 {
+  font-weight: 100;
+}
+
 p {
   font-family: Century Gothic, sans-serif;
   opacity: 0.3;
-  margin-top: 50px; }
+  margin-top: 50px;
+  max-width: 400px; }
 
 h3 {
   opacity: 0.3; }
@@ -24,14 +29,6 @@ a {
     text-decoration: none;
     bottom: 3.2vh;
     color: dodgerblue; }
-
-#aboutme h4 a {
-  color: dodgerblue;
-  font-size: inherit;
-  text-decoration: none;
-  margin-right: 0px; 
-}
-#aboutme h4 a:hover {opacity: 0.7;}
 
 .section {
   height: 100vh;
@@ -75,7 +72,9 @@ a {
   break-inside: avoid;
   text-decoration: none;
   list-style-type: none;
-  text-align: center; }
+  text-align: center;
+  }
+
   #navigation a, #navigation h5 {
     color: black;
     text-decoration: none; }
@@ -133,7 +132,16 @@ a {
   #aboutme h4 {
     font-size: 24px;
     line-height: 32px;
-    width: 80%; }
+    width: 70%; }
+
+    #aboutme h4 a {
+  color: dodgerblue;
+  font-size: inherit;
+  text-decoration: none;
+  margin-right: 0px; 
+}
+#aboutme h4 a:hover {opacity: 0.7;}
+
 
 @keyframes rise {
   0% {
@@ -166,18 +174,20 @@ a {
     margin-right: 16px; }
   #navigation {
     background-color: black;
-    color: white;
     position: fixed;
     margin: 0px;
     padding: 0px;
     width: 100vw;
-    top: 0px;
+    bottom: 0px;
     left: 0px;
-    height: 5vh;
+    height: 12vh;
     -moz-column-count: 3;
     -moz-column-gap: 10px;
     -webkit-column-count: 3;
     -webkit-column-gap: 10px;
+    -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
     column-count: 3;
     column-gap: 10px;
     text-align: center; }
@@ -190,4 +200,11 @@ a {
   #projects {
     overflow: scroll; }
     #projects ul {
-      padding: 0px; } }
+      padding: 0px; } 
+#aboutme h4 {
+  width: 90vw;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+    }
