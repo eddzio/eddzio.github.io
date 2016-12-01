@@ -1,8 +1,13 @@
-body {
+* {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+   }
 
-h1, h2, h3, h5, h4, h6 {
+body {
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h5, h4, h6, a {
   font-family: Century Gothic, sans-serif;
   font-weight: bold;
   color: black; }
@@ -24,7 +29,8 @@ a {
   color: black;
   margin-right: 50px;
   font-size: 20px;
-  opacity: 1; }
+  opacity: 1;
+  text-decoration: none; }
   a:hover {
     text-decoration: none;
     bottom: 3.2vh;
@@ -32,7 +38,7 @@ a {
 
 .section {
   height: 100vh;
-  width: 100vw; }
+   }
 
 #home {
   box-sizing: border-box;
@@ -40,7 +46,7 @@ a {
   position: relative; }
   #home .header {
     display: block;
-    width: 50vw;
+    width: 60vw;
     position: absolute;
     left: 5vw;
     top: 15vh;
@@ -55,39 +61,33 @@ a {
         color: dodgerblue; }
 
 #navigation {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
   position: fixed;
   bottom: 3vh;
   right: 3vw;
-  width: auto;
   z-index: 1;
-  animation: fadein 1s ease-out;
-  -moz-column-count: 3;
-  -moz-column-gap: 10px;
-  -webkit-column-count: 3;
-  -webkit-column-gap: 10px;
-  column-count: 3;
-  column-gap: 10px;
-  -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
-  text-decoration: none;
-  list-style-type: none;
-  text-align: center;
+  animation: fadein 1s ease-out; 
+  }
+  #navigation li {
+    display: inline;
+
   }
 
-  #navigation a, #navigation h5 {
-    color: black;
-    text-decoration: none; }
     #navigation a:hover, #navigation a:active, #navigation h5:hover, #navigation h5:active {
       color: dodgerblue; }
 
+
 #projects {
-  position: relative; }
+  position: relative; 
+  }
   #projects h2 {
     position: absolute;
     top: 5vh;
     left: 5vw; }
   #projects ul {
+    padding: 0;
     height: 45vh;
     display: block;
     width: 100vw;
@@ -100,7 +100,8 @@ a {
       height: 45vh;
       border-radius: 5px;
       width: 25vw;
-      display: inline-block; }
+      display: inline-block;
+      transition: all 200ms; }
       #projects ul li:first-child {
         margin-right: 2.5vw;
         background-image: url(/img/project1.png); }
@@ -113,11 +114,11 @@ a {
       #projects ul li:hover {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
         transform: translateY(-5px);
-        -webkit-transition: all 200ms ease-out;
-        -moz-transition: all 200ms ease-out;
-        -ms-transition: all 200ms ease-out;
-        -o-transition: all 200ms ease-out;
-        transition: all 200ms ease-out; }
+        -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms; }
       #projects ul li a {
         display: block;
         height: 100%;
@@ -125,14 +126,14 @@ a {
 
 #aboutme {
   height: 100vh;
-  width: 100vw;
   color: black;
   position: relative;
-  padding: 1em; }
+  }
   #aboutme h4 {
     font-size: 24px;
     line-height: 32px;
-    width: 70%; }
+    width: 70%; 
+    padding: 1em;}
 
     #aboutme h4 a {
   color: dodgerblue;
@@ -173,38 +174,35 @@ a {
   a {
     margin-right: 16px; }
   #navigation {
+    margin: 0;
+    padding: 10px;
     background-color: black;
-    position: fixed;
-    margin: 0px;
-    padding: 0px;
+    bottom: 0;
+    right: 0;
     width: 100vw;
-    bottom: 0px;
-    left: 0px;
-    height: 12vh;
-    -moz-column-count: 3;
-    -moz-column-gap: 10px;
-    -webkit-column-count: 3;
-    -webkit-column-gap: 10px;
-    -webkit-column-break-inside: avoid;
-  page-break-inside: avoid;
-  break-inside: avoid;
-    column-count: 3;
-    column-gap: 10px;
-    text-align: center; }
-    #navigation h5 {
-      margin: 0px;
+    text-align: center;
+    overflow: hidden;
+    }
+    #navigation li {
+      text-align: center;
+    }
+    #navigation li a {
       color: white;
-      text-align: center; }
-    #navigation ul {
-      margin-right: 0px; }
+      text-align: center;
+      margin: 0;
+      
+      padding: 10px 20px;
+      
+    }
+
   #projects {
-    overflow: scroll; }
+    overflow: hidden; }
     #projects ul {
       padding: 0px; } 
 #aboutme h4 {
-  width: 90vw;
-  font-size: 20px;
-  line-height: 24px;
+  width: 85vw;
+  font-size: 18px;
+  line-height: 20px;
 }
 
     }
