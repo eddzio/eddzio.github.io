@@ -9,8 +9,8 @@ const autoprefixer = require('gulp-autoprefixer');
 gulp.task('default', ['serve']);
 
 
-// Static Server + watching scss/html files
-gulp.task('serve', ['sass'], function() {
+// Static develop + watching scss/html files
+gulp.task('develop', ['sass'], function() {
 
     browserSync.init({
         server: "./"

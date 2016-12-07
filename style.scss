@@ -120,7 +120,6 @@ a {
     li {
       background-color: #f2f2f2;
       height: 45vh;
-      border-radius: 5px;
       width: 25vw;
       display: inline-block;
       transition: all 200ms;
@@ -144,14 +143,35 @@ a {
         -ms-transition: all 200ms;
         -o-transition: all 200ms;
         transition: all 200ms;
+        
       }
       a {
         display: block;
         height: 100%;
         width: 100%;
+        position: relative;
+        padding-top: 40%;
+        overflow: hidden;
+        box-sizing: border-box;
+        color: white;
+        font-size: 22px;
+        text-shadow: 1px 1px 10px black;
+        &:hover {
+          bottom: 0vh;
+          color: white;
+
+          background-color: rgba(0,0,0, 0.7);
+          -webkit-transition: all 200ms;
+        -moz-transition: all 200ms;
+        -ms-transition: all 200ms;
+        -o-transition: all 200ms;
+        transition: all 200ms;
+        
+        }
       }
     }
   }
+
 }
 
 #aboutme {
@@ -216,6 +236,11 @@ a {
 
 
 @media only screen and (min-width: 30px) and (max-width: 625px) {
+  
+#home .header {
+    width: 65vw;
+  }
+
   a {
     margin-right: 16px;
   }
@@ -241,8 +266,48 @@ a {
   #projects {
     overflow: hidden;
     ul {
-      padding: 0px;
+    padding: 0;
+    height: 45vh;
+    display: block;
+    width: 100vw;
+    margin: auto;
+    position: absolute;
+    top: 20vh;
+    text-align: center;
+    li {
+      margin: 0;
+      padding: 0;
+      height: 25vh;
+      border-radius: 0px;
+      width: 100vw;
+      display: block;
+      transition: all 200ms;
+      background-position: center;
+      &:first-child {
+        background-image: url(/img/project1.png);
+
+      }
+      &:nth-child(2) {
+        background-image: url(/img/project2.png);
+      }
+      &:nth-child(3) {
+        margin-left: 0px;  
+        background-image: url(/img/project3.png);
+        
+      }
+      &:hover {
+        transform: none;
+      }
+      a {
+        display: block;
+        height: 100%;
+        width: 100%;
+        padding-top: 20%;
+
+      }
     }
+  }
+
   }
   #aboutme h4 {
     width: 85vw;

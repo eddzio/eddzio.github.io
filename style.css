@@ -1,11 +1,9 @@
 * {
   padding: 0px;
-  margin: 0px;
-   }
+  margin: 0px; }
 
 body {
-  overflow-x: hidden;
-}
+  overflow-x: hidden; }
 
 h1, h2, h3, h5, h4, h6, a {
   font-family: Century Gothic, sans-serif;
@@ -13,8 +11,7 @@ h1, h2, h3, h5, h4, h6, a {
   color: black; }
 
 h4 {
-  font-weight: 100;
-}
+  font-weight: 100; }
 
 p {
   font-family: Century Gothic, sans-serif;
@@ -37,8 +34,7 @@ a {
     color: dodgerblue; }
 
 .section {
-  height: 100vh;
-   }
+  height: 100vh; }
 
 #home {
   box-sizing: border-box;
@@ -57,8 +53,10 @@ a {
     #home .header a, #home .header h5 {
       color: black;
       text-decoration: none; }
-      #home .header a:hover, #home .header a:active, #home .header h5:hover, #home .header h5:active {
-        color: dodgerblue; }
+    #home .header a:hover, #home .header a:active {
+      color: dodgerblue; }
+    #home .header h5:hover, #home .header h5:active {
+      color: dodgerblue; }
 
 #navigation {
   margin: 0;
@@ -68,20 +66,16 @@ a {
   bottom: 3vh;
   right: 3vw;
   z-index: 1;
-  animation: fadein 1s ease-out; 
-  }
+  animation: fadein 1s ease-out; }
   #navigation li {
-    display: inline;
-
-  }
-
-    #navigation a:hover, #navigation a:active, #navigation h5:hover, #navigation h5:active {
-      color: dodgerblue; }
-
+    display: inline; }
+  #navigation a:hover, #navigation a:active {
+    color: dodgerblue; }
+  #navigation h5:hover, #navigation h5:active {
+    color: dodgerblue; }
 
 #projects {
-  position: relative; 
-  }
+  position: relative; }
   #projects h2 {
     position: absolute;
     top: 5vh;
@@ -98,7 +92,6 @@ a {
     #projects ul li {
       background-color: #f2f2f2;
       height: 45vh;
-      border-radius: 5px;
       width: 25vw;
       display: inline-block;
       transition: all 200ms; }
@@ -122,27 +115,40 @@ a {
       #projects ul li a {
         display: block;
         height: 100%;
-        width: 100%; }
+        width: 100%;
+        position: relative;
+        padding-top: 40%;
+        overflow: hidden;
+        box-sizing: border-box;
+        color: white;
+        font-size: 22px;
+        text-shadow: 1px 1px 10px black; }
+        #projects ul li a:hover {
+          bottom: 0vh;
+          color: white;
+          background-color: rgba(0, 0, 0, 0.7);
+          -webkit-transition: all 200ms;
+          -moz-transition: all 200ms;
+          -ms-transition: all 200ms;
+          -o-transition: all 200ms;
+          transition: all 200ms; }
 
 #aboutme {
   height: 100vh;
   color: black;
-  position: relative;
-  }
+  position: relative; }
   #aboutme h4 {
     font-size: 24px;
     line-height: 32px;
-    width: 70%; 
-    padding: 1em;}
-
+    width: 70%;
+    padding: 1em; }
     #aboutme h4 a {
-  color: dodgerblue;
-  font-size: inherit;
-  text-decoration: none;
-  margin-right: 0px; 
-}
-#aboutme h4 a:hover {opacity: 0.7;}
-
+      color: dodgerblue;
+      font-size: inherit;
+      text-decoration: none;
+      margin-right: 0px; }
+      #aboutme h4 a:hover {
+        opacity: 0.7; }
 
 @keyframes rise {
   0% {
@@ -171,6 +177,8 @@ a {
     opacity: 1; } }
 
 @media only screen and (min-width: 30px) and (max-width: 625px) {
+  #home .header {
+    width: 65vw; }
   a {
     margin-right: 16px; }
   #navigation {
@@ -181,28 +189,49 @@ a {
     right: 0;
     width: 100vw;
     text-align: center;
-    overflow: hidden;
-    }
+    overflow: hidden; }
     #navigation li {
-      text-align: center;
-    }
-    #navigation li a {
-      color: white;
-      text-align: center;
-      margin: 0;
-      
-      padding: 10px 20px;
-      
-    }
-
+      text-align: center; }
+      #navigation li a {
+        color: white;
+        text-align: center;
+        margin: 0;
+        padding: 10px 20px; }
   #projects {
     overflow: hidden; }
     #projects ul {
-      padding: 0px; } 
-#aboutme h4 {
-  width: 85vw;
-  font-size: 18px;
-  line-height: 20px;
-}
-
-    }
+      padding: 0;
+      height: 45vh;
+      display: block;
+      width: 100vw;
+      margin: auto;
+      position: absolute;
+      top: 20vh;
+      text-align: center; }
+      #projects ul li {
+        margin: 0;
+        padding: 0;
+        height: 25vh;
+        border-radius: 0px;
+        width: 100vw;
+        display: block;
+        transition: all 200ms;
+        background-position: center; }
+        #projects ul li:first-child {
+          background-image: url(/img/project1.png); }
+        #projects ul li:nth-child(2) {
+          background-image: url(/img/project2.png); }
+        #projects ul li:nth-child(3) {
+          margin-left: 0px;
+          background-image: url(/img/project3.png); }
+        #projects ul li:hover {
+          transform: none; }
+        #projects ul li a {
+          display: block;
+          height: 100%;
+          width: 100%;
+          padding-top: 20%; }
+  #aboutme h4 {
+    width: 85vw;
+    font-size: 18px;
+    line-height: 20px; } }
