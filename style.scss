@@ -133,7 +133,7 @@ a {
       }
       &:nth-child(3) {
         margin-left: 2.5vw;
-        background-image: url(/img/project3.png);
+        background-image: url(/img/project3.gif);
         background-position: center;
       }
       &:hover {
@@ -315,5 +315,19 @@ a {
     width: 85vw;
     font-size: 18px;
     line-height: 20px;
+  }
+}
+
+
+.zoom-container {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 200ms ease;
+  background-size: 130%;
+  background-position: center;
+  &:hover {
+    background-size: 160%;
   }
 }

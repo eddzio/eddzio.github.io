@@ -102,7 +102,7 @@ a {
         background-image: url(/img/project2.png); }
       #projects ul li:nth-child(3) {
         margin-left: 2.5vw;
-        background-image: url(/img/project3.png);
+        background-image: url(/img/project3.gif);
         background-position: center; }
       #projects ul li:hover {
         box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -235,3 +235,14 @@ a {
     width: 85vw;
     font-size: 18px;
     line-height: 20px; } }
+
+.zoom-container {
+  display: block;
+  margin: auto;
+  overflow: hidden;
+  box-sizing: border-box;
+  transition: all 200ms ease;
+  background-size: 130%;
+  background-position: center; }
+  .zoom-container:hover {
+    background-size: 160%; }
