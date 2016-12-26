@@ -1,12 +1,12 @@
 * {
   padding: 0px;
-  margin: 0px; }
+  margin: 0px;
+  font-family: Century Gothic, Helvetica, sans-serif; }
 
 body {
   overflow-x: hidden; }
 
 h1, h2, h3, h5, h4, h6, a {
-  font-family: Century Gothic, sans-serif;
   font-weight: bold;
   color: black; }
 
@@ -223,7 +223,7 @@ a {
           background-image: url(/img/project2.png); }
         #projects ul li:nth-child(3) {
           margin-left: 0px;
-          background-image: url(/img/project3.png); }
+          background-image: url(/img/project3.gif); }
         #projects ul li:hover {
           transform: none; }
         #projects ul li a {
