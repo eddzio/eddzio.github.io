@@ -10,6 +10,9 @@ h1, h2, h3, h5, h4, h6 {
   font-weight: bold;
   color: black; }
 
+h1 {
+  font-size: 36px; }
+
 h4 {
   font-weight: 100; }
 
@@ -24,7 +27,7 @@ h3 {
 
 a {
   color: black;
-  margin-right: 50px;
+  margin-right: 40px;
   font-size: 20px;
   opacity: 1;
   text-decoration: none; }
@@ -47,6 +50,8 @@ a {
     left: 5vw;
     top: 15vh;
     animation: rise 1200ms ease-out, fadein 1200ms ease-out; }
+    #home .header .fa {
+      animation: rise 1500ms ease-out, fadein 1500ms ease-out; }
     #home .header h1, #home .header h3 {
       display: block;
       margin: auto; }
@@ -182,10 +187,14 @@ a {
 
 @media only screen and (min-width: 30px) and (max-width: 625px) {
   #home .header {
-    width: 65vw; }
+    width: 65vw;
+    top: 10vh; }
+    #home .header h1 {
+      font-size: 36px; }
   a {
     margin-right: 16px; }
   #navigation {
+    box-sizing: border-box;
     margin: 0;
     padding: 10px;
     background-color: black;
@@ -193,14 +202,15 @@ a {
     right: 0;
     width: 100vw;
     text-align: center;
-    overflow: hidden; }
+    overflow: hidden;
+    font-size: 12 px; }
     #navigation li {
       text-align: center; }
       #navigation li a {
         color: white;
         text-align: center;
         margin: 0;
-        padding: 10px 20px; }
+        padding: 10px 10px; }
   #projects {
     overflow: hidden; }
     #projects ul {
@@ -255,7 +265,8 @@ a {
   font-weight: light !important;
   font-size: 32px !important;
   transition: all 200ms ease-out;
-  color: #000; }
+  color: #000;
+  animation: fadein 1200ms ease-out; }
 
 .fa-behance:hover {
   color: blue; }
