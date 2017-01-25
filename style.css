@@ -58,8 +58,10 @@ a {
     #home .header a, #home .header h5 {
       color: black;
       text-decoration: none; }
-    #home .header a:hover, #home .header a:active {
-      color: dodgerblue; }
+    #home .header a {
+      -webkit-text-stroke: 0px; }
+      #home .header a:hover, #home .header a:active {
+        color: dodgerblue; }
     #home .header h5:hover, #home .header h5:active {
       color: dodgerblue; }
 

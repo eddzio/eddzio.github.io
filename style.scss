@@ -76,6 +76,8 @@ a {
 
     }
     a {
+      // -webkit-text-stroke: 0.3px white;
+      -webkit-text-stroke: 0px;
       &:hover, &:active {
         color: dodgerblue;
       }
