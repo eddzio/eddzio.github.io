@@ -14,7 +14,10 @@ gulp.task('default', ['serve']);
 gulp.task('develop', ['sass'], function() {
 
     browserSync.init({
-        server: "./"
+        server: "./",
+        browser: "google chrome"
+        // browser: "firefoxdeveloperedition"
+        // browser: ["google chrome", "firefoxdeveloperedition"]
     });
 
     gulp.watch("style.scss", ['sass']);
