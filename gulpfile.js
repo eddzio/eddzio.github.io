@@ -15,8 +15,8 @@ gulp.task('develop', ['sass'], function() {
 
     browserSync.init({
         server: "./",
-        // browser: "google chrome"
-        browser: "firefoxdeveloperedition"
+        browser: "google chrome"
+        // browser: "firefoxdeveloperedition"
         // browser: ["google chrome", "firefoxdeveloperedition"]
     });
 
