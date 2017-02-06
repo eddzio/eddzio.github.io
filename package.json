@@ -1,27 +1,19 @@
 {
   "name": "edz.io",
-  "version": "2.1.0",
-  "description": "Eduardo Orozco | UX Designer & Web Developer",
+  "version": "2.0.0",
+  "description": "",
   "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.7",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/eddzio/eddzio.github.io.git"
-  },
-  "author": "eddzio",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/eddzio/eddzio.github.io/issues"
-  },
-  "homepage": "https://github.com/eddzio/eddzio.github.io#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.1",
-    "gulp-image-optimization": "^0.1.3"
-  },
-  "dependencies": {
-    "optipng-bin": "^3.1.2"
-  }
+  "author": "",
+  "license": "ISC"
 }

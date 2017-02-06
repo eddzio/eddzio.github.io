@@ -1,107 +1,171 @@
+<!-- index.html -->
+
 <!DOCTYPE html>
 <html>
 <head>
-     <html lang="en">
-     <meta charset="utf-8">
-     <meta title="Eduardo Orozco | UX Designer">
-     <title>Eduardo Orozco | UX Designer</title>
-     <meta property="og:title" content="Eduardo Orozco | UX Designer" />
-     <meta property="og:description" content="Data-driven designer with marketing roots." />
-     <meta property="og:type" content="website" />
-     <meta property="og:url" content="http://edz.io" />
-     <meta property="og:image" content="http://edz.io/img/titleprofile.png" />
-     <meta name=viewport content="width=device-width, initial-scale=1">
-     <link rel="prefetch" href="/img/project1.png">
-     <link rel="prefetch" href="/img/project2.png">
-     
-<!-- style -->
-     <link rel="stylesheet" type="text/css" href="style.css">
-<!-- fonts -->
-     <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
-<!--- CDN -->
-     <!-- JQuery -->
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<title>Eduardo Orozco</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<meta property="og:title" content="Eduardo Orozco | UX Designer" />
+	<meta property="og:description" content="Data-driven designer with marketing roots." />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="http://edz.io" />
+	<meta property="og:image" content="http://edz.io/img/titleprofile.png" />
+	
+	<style>
+		* {
+			transition: all ease-out 200ms;
+			
+		}
+		.thumbnail {
+			background-color: transparent;
+     	border: 0px; 
+     	box-sizing: border-box;
+		}
+		.thumbnail:hover {
+			opacity: 0.8;
+		}
+		.col-xs-12 {
+			padding: 0px;
+		}
+		.col-xs-12 img {
+			width: 100vw;			
+		}
+		.opaque {
+			opacity: 0.6;
+		}
+		.nav-social {
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav-social .fa {
+			color: black;
+			transition: all 100ms ease-out;	
+			box-sizing: border-box;
+			padding: 15px;
+		}
+		.fa-behance:hover {
+			color: #002cc3; 
+		}
+		
+		.fa-dribbble:hover {
+			color: #ea4c89; 
+		}
 
+		.fa-linkedin:hover {
+			color: #0077B5; 
+		}
 
-<!--Google Analytics-->
-          <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+		.fa-twitter:hover {
+			color: #4099FF; 
+		}
 
-       ga('create', 'UA-41074133-3', 'auto');
-       ga('send', 'pageview');
+		.fa-medium:hover {
+			color: #00ab6b; 
+		}
 
-     </script>
-<!--Google Analytics-->
+		.fa-envelope-o:hover {
+			color: #cb2027;
+		}
+		.footer {
+			margin: 100px auto;
+		}
+		a {
+			color: black;
+		}
+		a:hover {
+			color: dodgerblue;
+		}
+		
+		.constrained {
+			max-width: 600px;
+		}
+		.project-container {
+			box-sizing: border-box;
+			padding: 7vh 15px;
 
+		}
+		@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } 
+  }
+		
+	</style>
 </head>
 
-<body>
 
-<!--/////////////////////////////////////////////////////// SECTION 1, HOME -->
-<div id="home" class="section"> 
-  <div class="header">
-    <h1>Eduardo Orozco</h1>
-    <h3>UX Designer & Web Developer</h3><br>
-    <!-- <p>Data-driven designer with marketing roots.</p> -->
-    <a href="https://www.behance.net/eddzio" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>
+<body style="background-color: #f2f2f2; animation: fadein 1200ms ease-out;">
+	
+<div class="container">
+	<h1 class="text-center"><strong><a href="#">Eduardo Orozco</a></strong></h1>
+	<h4 class="text-center opaque">Data-informed designer with marketing roots</h4>
+</div>
+
+
+<div class="text-center"> <!--Social Icons-->
+
+	<h2 class="nav-social">
+		<a href="https://www.behance.net/eddzio" target="_blank"><i class="fa fa-behance" aria-hidden="true"></i></a>	
     <a href="https://dribbble.com/eddzio" target="_blank"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
     <a href="https://ar.linkedin.com/in/eddzio" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
     <a href="http://www.twitter.com/eddzio" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
     <a href="https://medium.com/@eddzio/" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-    <a href="mailto:edudesignsforhumans@gmail.com" target="_blank"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-  </div>
+    <a href="mailto:hello@edz.io" target="_blank"><i class="fa fa-envelope-o" aria-hidden="true"></i></a>
+	</h2>
 
-  <ul id="navigation">
-    <li class="nav"><a href="#!" id="scrollhome">Home</a></li>
-    <li class="nav"><a href="#!" id="scrolltoprojects">Projects</a></li>
-    <li class="nav"><a href="#!" id="scrolltoaboutme">About Me</a></li>
-  </ul>
+</div>		
+
+<hr>
+
+<!--Grid-->
+<div class="container">
+	<div class="row">
+      <div class="col-sm-6 col-xs-12">
+          <a class="thumbnail" href="/agileapp.html">
+              <img class="img-responsive" src="img/AgileApp-Cover.png" alt="">
+          </a>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+          <a class="thumbnail" href="/keepcon.html">
+              <img class="img-responsive" src="img/Keepcon-cover.png" alt="">
+          </a>
+      </div>
+  </div>	
+
+<div class="row">
+      <div class="col-sm-6 col-xs-12">
+          <a class="thumbnail" href="/dailyui.html">
+              <img class="img-responsive" src="img/dailyui-1.png" alt="">
+          </a>
+      </div>
+      <div class="col-sm-6 col-xs-12">
+          <a class="thumbnail" href="interaction.html">
+              <img class="img-responsive" src="img/interaction-agileapp.gif" alt="">
+          </a>
+      </div>
+	</div>
+
 </div>
 
-<!--/////////////////////////////////////////////////////// SECTION 2, PROJECTS -->
-<div id="projects" class="section"> 
-  <h2>Curated Projects</h2>
-
-  <ul>
-    <li><a href="https://www.behance.net/gallery/46467741/Keepconcom" target="blank">Keepcon.com</a></li>
-    <li><a href="https://www.behance.net/gallery/27979917/Doodle-UI-redesign" target="blank">Doodle UI</a></li>
-    <li><a href="https://www.behance.net/gallery/41789993/Daily-UI-Picks" target="blank">Daily Ui</a></li>
-  </ul>
+<!--footer-->
+<div class="container text-center pagination-centered footer">
+	<h6 class="opaque">Say Hello</h6>
+	<h1 class="opaque"><i class="fa fa-angle-down"></i></h1>
+	<h1><a href="mailto:hello@edz.io">hello@edz.io</a></h1>
+	<br>
 </div>
 
-<!--/////////////////////////////////////////////////////// SECTION 3, ABOUT ME -->
 
-<div id="aboutme" class="section"> 
 
-<h4>As a designer, I prefer to think in terms of <a target=_blank href='https://www.youtube.com/watch?v=9BdtGjoIN4E'>People Experience</a> because we are all more than just users pushing buttons. We are complex beings with needs, desires and passions. <a target=_blank href="https://www.vitsoe.com/rw/about/good-design">Good design</a> helps people achieve their goals and feel great about it.</h4>
-<h4>In the past 3 years I've been working with tech companies to build engaging and satisfying user experiences. Most of my work has been focused on web-based apps for which I've worked with usage data to optimize user flows, draft personas and improve their features.</h4>
-<h4>I've worked in Argentina, Poland, Colombia and Brazil. As a result, I've developed a passion for languages and cultures. I'm fluent in French, Portuguese, English and Spanish but I also know some Italian, German and Polish.</h4>
-  
-</div>
 
-<script type="text/javascript">
-$("#scrolltoaboutme").click(function() {
-  $('html,body').animate({
-  scrollTop: $("#aboutme").offset().top},
-  400);
-  });</script>
-
-<script type="text/javascript">
-$("#scrolltoprojects").click(function() {
-	$('html,body').animate({
-	scrollTop: $("#projects").offset().top},
-	400);
-	});</script>
-
-<script type="text/javascript">
-$("#scrollhome").click(function() {
-	$('html,body').animate({
-	scrollTop: $("#home").offset().top},
-	400);
-	});</script>
 
 </body>
 </html>

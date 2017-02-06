@@ -1,0 +1,197 @@
+<!-- agileapp.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>edz/DailyUI</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<style>
+		* {
+			box-sizing: border-box;
+			transition: all ease-out 200ms;
+		}
+		.opaque {
+			opacity: 0.6;
+		}
+		.nav-social {
+			margin: 0px;
+			padding: 0px;
+		}
+		.nav-social .fa {
+			color: black;
+			transition: all 100ms ease-out;	
+			box-sizing: border-box;
+			padding: 15px;
+		}
+		a {
+			color: black;
+		}
+		a:hover {
+			color: dodgerblue;
+		}
+		.footer-project {
+			margin: 50px auto;
+			vertical-align: middle;
+		}
+		.constrained {
+			max-width: 600px;
+		}
+		.container {
+			padding: 5vh 15px;
+		}
+		.test {
+			background-color: gray;
+		}
+		@keyframes fadein {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  51% {
+    opacity: 0.1; }
+  100% {
+    opacity: 1; } 
+  }
+		
+	</style>
+</head>
+
+
+<body style="background-color: #f2f2f2; animation: fadein 1200ms ease-out;">
+
+
+<div class="container text-center">
+	<div class="container text-center">
+		<h1><strong>Agile App</strong></h1>
+		<h6 class="opaque">Mobile | Responsive | Prototype</h6>
+		<br>
+		<p class="constrained center-block">I designed an that hooks up to Trello’s API and allows for each member of the team to check in their progress as well as to see the advances of the entire team in the current sprint.</p>
+	</div>
+</div>
+
+<br>
+
+<div class="text-center">
+	<img class="img-responsive center-block" src="img/Jumbrotron-AgileApp.png">
+</div>
+
+<!-- The Project-->
+<div class="container project-container">
+
+	<div class="row">
+		<div class="col-xs-12 col-md-6 constrained">
+			<h1><strong>The Project</strong></h1>
+			<p>As the team grows, it’s harder to keep track of tasks let alone of each sprint. Whiteboards and Post-its were not cutting it. They had been using Trello for PM but it’s cumbersome to update and doesn’t represent progress in a visual way.
+		<br>
+		<br>
+			As I was doing the research, I came accross Trello’s API which inspired me to build the Agile App’s functionality on top of it as an extension.</p>
+		<br>
+			<h1><strong>The Goals</strong></h1>
+			<ul>
+				<li>Low learning curve and simple</li>
+				<li>Completely responsive</li>
+				<li>Avoid function overlapping with current PM tools</li>
+				<li>Fun and playful UI</li>
+			</ul>
+		</div>
+		<div class="col-xs-12 col-md-6 col-lg-6">
+			<img class="img-responsive" src="img/AgileApp-Project.png">
+		</div>
+		
+	</div>
+</div> 
+<!-- end The Project  -->
+
+<!-- 1, sprint 1 designer -->
+<div class="container project-container text-center">
+	<h1><strong>1 Week, 1 Sprint and 1 Designer</strong></h1>
+	<p class="text-center constrained center-block">After an full day of research and another of wireframing, I jumped into Sketch and started to define the main components of the UI. I spent Thursday prototyping. It had to be ready for Friday.</p>
+	<br><br>
+	<img class="text-center img-responsive center-block" src="img/AgileApp-double-view.png"><br>
+	<img class="center-block img-responsive" src="img/sprint.png">
+</div>
+
+<!-- how it works -->
+<div class="container project-container">
+	<div class="row">
+		<div class="col-xs-12 col-md-8">
+			<img class="img-responsive" src="img/AgileApp-3-Phones-Mockup.png">
+		</div>
+		<div class="col-xs-12 col-md-4">
+			<h1 class="constrained"><strong>How it Works</strong></h1><br>
+			<p class="constrained">The app has 2 main views: 
+				Check In and Dashboard. 
+			<br>	
+				In Check In, you can update the status on each task that’s assigned to you. If you choose ‘Blocked’ you can send a message to the team. The message is posted as comment to the card via Trello’s API.
+			</p>
+		</div>
+	</div>
+</div>
+
+<!--desktop version section -->
+
+<div class="container project-container">
+	<div class="row">
+
+		<div class="col-xs-12 col-md-4">
+			<h1 class="constrained"><strong>Desktop Version</strong></h1><br>
+			<p class="constrained">
+			The widgets on the Dashboard section use the color-coded iconography of the four possible status to mark their variation throughout the week.
+			<br>
+			To make better use of the space, the desktop version displays both views at the same time.
+			</p>
+			<br>
+			<br>
+		</div>
+
+		
+		<div class="col-xs-12 col-md-8">
+			<img class="img-responsive" src="img/AgileApp-DesktopVersion.png">
+		</div>
+
+	</div>
+</div>
+
+<!-- Mobile Version-->
+<div class="container project-container text-center">
+	<h1><strong>Mobile Version</strong></h1>
+	<p class="text-center constrained center-block">The mobile prototype was interactive just like a native app which made it easy to test among the rest of the team. They loved it!</p>
+	<br><br>
+	<img class="text-center img-responsive center-block" src="img/AgileApp-Mobile.png">
+
+
+<!--footer-->
+
+
+<!--footer nav-->
+<div class="container footer-project">
+	<div class="row">
+		
+		<a href="/."><div class="col-xs-2 text-center"><span class="glyphicon glyphicon-menu-left"></span><br><small>Go Back</small></div></a>
+			
+			<div class="container text-center col-xs-8">
+				<h6 class="opaque">Say Hello</h6>
+				<h1 class="opaque"><i class="fa fa-angle-down"></i></h1>
+				<h1><a href="mailto:hello@edz.io">hello@edz.io</a></h1>
+			</div>
+
+		<a href="/keepcon.html"><div class="col-xs-2 text-center"><span class="glyphicon glyphicon-menu-right"></span><br><small>See More</small></div></a>
+
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
