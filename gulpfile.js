@@ -2,6 +2,8 @@
 var gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
+const imagemin = require('gulp-imagemin');
+
 
 
 // Static develop + watching scss/html files
@@ -32,3 +34,11 @@ gulp.task('browser-sync', function() {
     gulp.watch("*.html").on('change', browserSync.reload);
     gulp.watch("css/style.css").on('change', browserSync.reload);
 });
+
+
+
+gulp.task('opti', () =>
+    gulp.src('img/*.png')
+        .pipe(imagemin())
+        .pipe(gulp.dest('opti'))
+);
