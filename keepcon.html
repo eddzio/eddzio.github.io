@@ -53,15 +53,22 @@
 			background-color: gray;
 		}
 		@keyframes fadein {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: 0; }
-  51% {
-    opacity: 0.1; }
-  100% {
-    opacity: 1; } 
-  }
+		  0% {
+		    opacity: 0; }
+		  50% {
+		    opacity: 0; }
+		  51% {
+		    opacity: 0.1; }
+		  100% {
+		    opacity: 1; } 
+		  }
+
+  		.mobile {display: none;}
+		@media (max-width: 990px) {
+			.desktop {display: none !important;}
+			.mobile {display: block;}
+			.mobile img {width: 20vw;}
+		} 
 		
 	</style>
 
@@ -79,7 +86,6 @@
 
 
 
-
 	
 </head>
 
@@ -90,7 +96,8 @@
 <!--navigation-->
 <ol class="breadcrumb" style="background-color: #f2f2f2; position: fixed; z-index: 1; display: block; width: 100vw;">
 	<li><a href="/."><strong>Eduardo's Portfolio</strong></a></li>
-	<li class="opaque disabled">Keepcon.com</li>
+	<li class="opaque disabled desktop">Keepcon.com</li>
+	<a href="/about.html" style="float: right;">About</a>
 </ol>
 
 

@@ -24,7 +24,7 @@ const imagemin = require('gulp-imagemin');
 
 
 // Static server
-gulp.task('browser-sync', function() {
+gulp.task('default', function() {
     browserSync.init({
         server: {
             baseDir: "./"
@@ -38,7 +38,7 @@ gulp.task('browser-sync', function() {
 
 
 gulp.task('opti', () =>
-    gulp.src('img/*.png')
+    gulp.src('img/*.gif')
         .pipe(imagemin())
         .pipe(gulp.dest('opti'))
 );
