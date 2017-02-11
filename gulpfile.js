@@ -38,7 +38,7 @@ gulp.task('default', function() {
 
 
 gulp.task('opti', () =>
-    gulp.src('img/*.gif')
+    gulp.src('img/*.png')
         .pipe(imagemin())
         .pipe(gulp.dest('opti'))
 );
