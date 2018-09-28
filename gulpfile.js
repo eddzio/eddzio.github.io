@@ -1,5 +1,5 @@
 //gulpfile.js
-var gulp        = require('gulp');
+const gulp        = require('gulp');
 var browserSync = require('browser-sync').create();
 var sass        = require('gulp-sass');
 const imagemin = require('gulp-imagemin');

@@ -11,9 +11,11 @@
     "gulp-imagemin": "^3.4.0",
     "gulp-sass": "^3.2.1"
   },
+  
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+
   "author": "Ed Orozco",
   "license": "ISC",
   "repository": {
