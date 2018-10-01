@@ -1,5 +1,4 @@
 <!-- index.html -->
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,7 +6,6 @@
 	<link rel="preconnect" href="//edz.io">
 	<title>Ed Orozco | Product Designer</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Roboto:400,900" rel="stylesheet">
 	<meta property="og:title" content="Ed Orozco | Product Designer" />
 	<meta property="og:description" content="Product Designer" />
 	<meta property="og:type" content="website" />
@@ -15,131 +13,91 @@
 	<meta property="og:image" content="http://edz.io/img/dribbble-2018.png" />
 	<!-- google verification -->
 	<meta name="google-site-verification" content="V8CLbqoMUfgKsMhlqm-9hZMOOUJgdtScXPomycSoFEM" />
-	
+
+<!-- STYLES	 -->
 	<style>
-		* {
-			transition: all ease-out 200ms;
-			color: white;
-			font-family: roboto;
-		}
+body {
+	background-color: #101010;
+	margin: 0;
+}
+h1, h2, p, a {
+	color: white;
+	font-family: Helvetica, sans-serif, Arial;
+	margin: 0;
+}
 
-		h1 {
-			font-weight: 900;
-			font-size: 58px;
-			line-height: 58px;
-			margin: 0;
-		}
-		h2, h3, h4, h5 {
-			font-weight: 400;
-			margin: 0;
-		}
+a {
+	text-decoration: none;
+}
+h1 {
+	font-size: 64px; margin-bottom: 0.25em;
+}
+h2 {
+	font-size: 32px; margin-bottom: 2em;
+}
+p {
+	font-size: 16px; margin-bottom: 9em; color: #8e8888; 
+}
+#content {
+	style="width: 26em; margin: 8em 6em; position: fixed;"
+}
 
-		h3, p {
-			font-size: 25px;
-			margin: 0;
-		}
-		
-		p {
-			line-height: 0px;
-		}
+#mobile-image {
+	display: none;
+}
 
-		i {
-			opacity: 0.6;
-		}
-
-		i:hover {
-			opacity: 1;
-		}
-		a {
-			text-decoration: none;
-		}
-
-		a:hover {
-			color: #0000FF;
-			text-decoration: underline;
-		}
-
-		#medium:hover {
-			color: #43A047;
-		}
-		#instagram:hover {
-			color: #9C27B0;
-		}
-		#dribbble:hover {
-			color: #EC407A;
-		}
-		#twitter:hover {
-			color: #1E88E5;
-		}
-		#linkedin:hover {
-			color: #0D47A1;
-		}
-		#wander:hover {
-			color: #00838F;
-		}
-
-		@keyframes fadein {
-		  0% {
-		    opacity: 0; }
-		  50% {
-		    opacity: 0; }
-		  51% {
-		    opacity: 0.1; }
-		  100% {
-		    opacity: 1; } 
-		  }
-		  @media (max-width: 990px) {
-		  	.nav-social .fa {padding: 10px;}
-		  }
-		
+/* MEDIA QUERIES */
+@media only screen and (max-width : 667px) {
+ 	#desktop-image {
+	 display: none;
+ 	}
+ 	#content {
+	 margin-top: 12vh;
+	 margin-left: 32px;
+	 margin-right: 32px;
+	 margin-bottom: 32px;
+ 	}
+ 	h1 {
+	 font-size: 32px;
+ 	}
+ 	h2 {
+	 font-size: 16px;
+	 margin-bottom: 1em;
+ 	}
+	p {
+		font-size: 12px;
+		margin-bottom: 3em;
+	}
+	#mobile-image {
+		display: block;
+		width: 50%;
+		margin-bottom: 3em;
+	}
+}
 
 	</style>
 
-
-
-
 <!--Google Analytics-->
-          <script>
-       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-       })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-       ga('create', 'UA-41074133-3', 'auto');
-       ga('send', 'pageview');
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+				ga('create', 'UA-41074133-3', 'auto');
+				ga('send', 'pageview');
      </script>
 <!--Google Analytics-->
 
-
-
 </head>
 
-
-<body style="background: url(img/blue-flame.jpg) no-repeat center center; animation: fadein 1200ms ease-out;">
-
-<div class="content" style="margin: 64px 10% 64px;">
-
-	<!-- profile pic -->
-	<img src="img/profile2018.png" width="100px" height="100px" style="margin-bottom: 16px;">
-
-	<h1>ED OROZCO</h1>
-	<h3 style="opacity: 0.6; letter-spacing: 4.5px;">PRODUCT DESIGNER</h3>
-
-	<div class="text" style="margin-top: 64px;">
-		<pre>
-			<p><a id="medium" href="http://medium.com/@eddzio">Medium</a></p>
-			<p><a id="instagram" href="http://instagram.com/eddziogram">Instagram</a></p>
-			<p><a id="dribbble" href="http://dribbble.com/eddzio">Dribbble</a></p>
-			<p><a id="twitter" href="http://twitter.com/eddzio">Twitter</a></p>
-			<p><a id="linkedin" href="http://linkedin.com/in/eddzio">Linkedin</a></p>
-			<p><a id="wander" href="http://wanderagency.com">I design at Wander</a></p>
-		</pre>
-	</div>
-
-	</div>
-</div>		
-
-
-
-
+<body>
+		<section id="content">
+				<img id="mobile-image" src="/img/mobile-profile-pic.png">
+				<h1>Ed Orozco</h1>
+				<h2 style="line-height: 1.375em;">Building a better future through design</h1>
+				<p style="line-height: 1.5em">Product designer, Head of Strategy at <a href="https://wandr.studio" style="color: #8e8888;">WANDR</a>, Founder of the Barranquilla Design Group, member of AIGA, language learning afficionado, space and science geek, guitar hobbyist.</p>
+				<footer style="font-size: 14px; font-weight: bold;"><a href="https://www.twitter.com/eddzio">TWITTER / </a><a href="https://www.MEDIUM.com/@eddzio">MEDIUM / </a><a href="https://www.DRIBBBLE.com/eddzio">DRIBBBLE</a></footer>
+		</section>
+		<section id="desktop-image" style="background-color: #101010; height: 100vh; width: 100%; position: absolute; right: 0; top: 0; z-index: -1; background-image: url(/img/desktop-profile-pic.png); background-size: auto 100%; background-repeat: no-repeat; background-position: 90%;"></section>
 </body>
 </html>
